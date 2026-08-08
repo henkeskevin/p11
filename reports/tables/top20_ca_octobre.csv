@@ -1,0 +1,21 @@
+﻿product_id,id_web,post_title,product_type,price,total_sales,ca_octobre_ttc,marge_octobre_ht,taux_marque,taux_marge_sur_cout,stock_quantity,segment_stock
+4352,15940,Champagne Egly-Ouriet Grand Cru Millésimé 2008,Champagne,225.0,11.0,2475.0,546.5899999999999,0.2650133333333333,0.36056889920905594,0,rupture_potentielle
+5892,14983,Coteaux Champenois Egly-Ouriet Ambonnay Rouge 2016,Champagne,191.3,6.0,1147.8000000000002,260.1400000000001,0.27197072660742294,0.3735711413636626,98,surstock_gt_12_mois
+4353,12587,Champagne Egly-Ouriet Grand Cru Brut Rosé,Champagne,79.5,14.0,1113.0,284.76000000000005,0.30701886792452837,0.4430407318666958,127,surstock_6_a_12_mois
+5826,15325,Agnès Levet Côte Rôtie Améthyste 2017,Vin,41.2,20.0,824.0,252.4666666666667,0.36766990291262136,0.5814524796560725,34,couverture_1_a_3_mois
+6212,13996,Domaine des Comtes Lafon Volnay 1er Cru Santenots du Milieu 2015,Vin,115.0,7.0,805.0,254.89333333333337,0.3799652173913044,0.6128127454280266,16,couverture_1_a_3_mois
+5026,13913,Champagne Agrapart &amp; Fils Minéral Extra Brut Blanc de Blancs Grand Cru 2012,Champagne,86.8,9.0,781.1999999999999,199.82999999999993,0.306958525345622,0.44291508743932423,101,surstock_6_a_12_mois
+5008,11602,Domaine des Comtes Lafon Volnay 1er Cru Santenots du Milieu 2013,Vin,105.0,7.0,735.0,217.56,0.35519999999999996,0.5508684863523573,12,couverture_1_a_3_mois
+5767,15185,Camille Giroud Clos de Vougeot 2016,Vin,175.0,4.0,700.0,221.65333333333336,0.3799771428571429,0.6128437661284377,12,couverture_3_a_6_mois
+6126,14923,Champagne Gosset Célébris Vintage 2007,Champagne,135.0,5.0,675.0,160.85000000000002,0.2859555555555556,0.4004730486742189,138,surstock_gt_12_mois
+5025,13914,Champagne Agrapart &amp; Fils L'Avizoise Extra Brut Blanc de Blancs Grand Cru 2012,Champagne,112.0,6.0,672.0,148.4000000000001,0.2650000000000001,0.36054421768707506,136,surstock_gt_12_mois
+6201,14596,David Duband Chambolle-Musigny 1er Cru Les Sentiers 2016,Vin,105.6,6.0,633.5999999999999,184.26,0.34897727272727275,0.5360446849362891,16,couverture_1_a_3_mois
+4406,7819,Cognac Frapin Château de Fontpinot 1989 20 Ans d'Age,Cognac,157.0,4.0,628.0,247.01333333333338,0.47200000000000003,0.8939393939393941,12,couverture_3_a_6_mois
+4647,16525,Bernard Baudry Chinon Rouge La Croix Boissée 2017,Vin,28.5,22.0,627.0,211.42,0.4046315789473684,0.6796322489391796,45,couverture_1_a_3_mois
+4358,13854,Champagne Larmandier-Bernier Grand Cru Vieilles Vignes du Levant 2008,Champagne,77.0,8.0,616.0,136.0533333333334,0.26503896103896113,0.36061634153237226,81,surstock_6_a_12_mois
+4359,13853,Champagne Larmandier-Bernier Grand Cru Les Chemins d'Avize 2011,Champagne,85.6,7.0,599.1999999999999,135.8233333333333,0.27200934579439245,0.3736440079594325,112,surstock_gt_12_mois
+6214,11601,Domaine des Comtes Lafon Volnay 1er Cru Champans 2013,Vin,99.0,6.0,594.0,197.28000000000003,0.3985454545454546,0.6626360338573157,9,couverture_1_a_3_mois
+6202,15126,Domaine Clerget Echezeaux Grand Cru En Orveaux 2015,Vin,116.4,5.0,582.0,169.25000000000009,0.34896907216494855,0.5360253365003962,12,couverture_1_a_3_mois
+4350,12588,Champagne Egly-Ouriet Grand Cru Extra Brut V.P.,Champagne,79.5,7.0,556.5,132.65000000000003,0.2860377358490567,0.40063424947145887,145,surstock_gt_12_mois
+4573,13604,Château de Meursault Beaune-Grèves Les Trois Journaux 1er Cru 2015,Vin,67.2,8.0,537.6,156.32000000000005,0.3489285714285715,0.5359297860669228,12,couverture_1_a_3_mois
+4402,3510,Cognac Frapin VIP XO,Cognac,176.0,3.0,528.0,205.25000000000006,0.4664772727272728,0.8743343982960599,11,couverture_3_a_6_mois

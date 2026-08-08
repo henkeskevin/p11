@@ -1,0 +1,6 @@
+﻿method,matched_skus,units,revenue_ttc,revenue_difference_vs_product,relative_difference_vs_product,decision
+filtre_semantique_product,714,5751.0,143680.09999999998,0.0,0.0,retenu: le type décrit l'entité métier
+filtre_attachment,714,6081.0,153748.1,10068.00000000003,0.07007233430377645,rejeté: une pièce jointe n'est pas une vente produit
+dedoublonnage_garder_premiere_ligne,714,6081.0,153748.09999999998,10068.0,0.07007233430377625,rejeté: résultat dépendant de l'ordre
+dedoublonnage_garder_derniere_ligne,714,5751.0,143680.09999999998,0.0,0.0,rejeté: résultat dépendant de l'ordre
+somme_de_toutes_les_lignes,714,11832.0,297428.19999999995,153748.09999999998,1.0700723343037764,rejeté: double comptage

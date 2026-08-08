@@ -1,0 +1,134 @@
+{
+  "status": "pass",
+  "checked_at_utc": "2026-08-08T14:32:25.531309+00:00",
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "commands": [
+    {
+      "name": "analyse",
+      "command": [
+        "C:\\Users\\PC - Henkes\\python\\OC\\p11\\.venv\\Scripts\\python.exe",
+        "scripts/run_analysis.py"
+      ],
+      "returncode": 0,
+      "status": "pass",
+      "duration_seconds": 17.954,
+      "stdout_tail": "{\n  \"analytic_rows\": 714,\n  \"revenue_october_ttc\": 143680.09999999998,\n  \"units_sold_october\": 5751.0,\n  \"quality_issues\": 165,\n  \"figures_written\": 22\n}\n",
+      "stderr_tail": ""
+    },
+    {
+      "name": "comparaison_validateurs",
+      "command": [
+        "C:\\Users\\PC - Henkes\\python\\OC\\p11\\.venv\\Scripts\\python.exe",
+        "experiments/compare_validators.py"
+      ],
+      "returncode": 0,
+      "status": "pass",
+      "duration_seconds": 18.177,
+      "stdout_tail": "[\n  {\n    \"option\":\"pandas_natif\",\n    \"cases\":9,\n    \"detected_cases\":9,\n    \"detection_rate\":1.0,\n    \"localized_cases\":9,\n    \"localization_rate\":1.0,\n    \"input_unchanged\":true,\n    \"pytest_ready\":true,\n    \"median_runtime_ms_for_9_cases\":94.8951500177,\n    \"implementation_lines\":36,\n    \"weighted_score\":1.0,\n    \"decision\":\"retenu pour le pipeline: diagnostics m�tier et d�pendances minimales\"\n  },\n  {\n    \"option\":\"pandera\",\n    \"cases\":9,\n    \"detected_cases\":9,\n    \"detection_rate\":1.0,\n    \"localized_cases\":7,\n    \"localization_rate\":0.7777777778,\n    \"input_unchanged\":true,\n    \"pytest_ready\":true,\n    \"median_runtime_ms_for_9_cases\":286.2728499749,\n    \"implementation_lines\":36,\n    \"weighted_score\":0.8887040536,\n    \"decision\":\"conserv� comme option de contr�le additionnel, non requis au runtime\"\n  }\n]\n{\"output\": \"C:\\\\Users\\\\PC - Henkes\\\\python\\\\OC\\\\p11\\\\reports\\\\tables\\\\comparaison_validateurs.csv\"}\n",
+      "stderr_tail": ""
+    },
+    {
+      "name": "construction_notebook",
+      "command": [
+        "C:\\Users\\PC - Henkes\\python\\OC\\p11\\.venv\\Scripts\\python.exe",
+        "scripts/build_notebook.py"
+      ],
+      "returncode": 0,
+      "status": "pass",
+      "duration_seconds": 0.535,
+      "stdout_tail": "Notebook g�n�r� : C:\\Users\\PC - Henkes\\python\\OC\\p11\\notebooks\\BottleNeck_analyse_portfolio.ipynb\n",
+      "stderr_tail": ""
+    },
+    {
+      "name": "execution_notebook",
+      "command": [
+        "C:\\Users\\PC - Henkes\\python\\OC\\p11\\.venv\\Scripts\\python.exe",
+        "scripts/execute_notebook.py"
+      ],
+      "returncode": 0,
+      "status": "pass",
+      "duration_seconds": 22.229,
+      "stdout_tail": "Notebook ex�cut� sans erreur en 20.74 s: C:\\Users\\PC - Henkes\\python\\OC\\p11\\notebooks\\BottleNeck_analyse_portfolio.ipynb\n",
+      "stderr_tail": "[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.\n"
+    },
+    {
+      "name": "pytest",
+      "command": [
+        "C:\\Users\\PC - Henkes\\python\\OC\\p11\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "--basetemp=.tmp/pytest-final"
+      ],
+      "returncode": 0,
+      "status": "pass",
+      "duration_seconds": 6.056,
+      "stdout_tail": ".................                                                        [100%]\n17 passed in 2.11s\n",
+      "stderr_tail": ""
+    }
+  ],
+  "checks": [
+    {
+      "check_id": "archive_original",
+      "status": "pass",
+      "detail": "8 copies bit-à-bit conformes",
+      "evidence": "archive/original/MANIFEST.md"
+    },
+    {
+      "check_id": "sources_immuables",
+      "status": "pass",
+      "detail": "3 sources structurées et archivées sans modification",
+      "evidence": "data/raw/"
+    },
+    {
+      "check_id": "notebook_execute",
+      "status": "pass",
+      "detail": "24 cellules, 12 cellules code exécutées, 0 erreur",
+      "evidence": "notebooks/BottleNeck_analyse_portfolio.ipynb"
+    },
+    {
+      "check_id": "kpi_reconcilies",
+      "status": "pass",
+      "detail": "KPI clés réconciliés, écart CA indépendant = 0,00 €",
+      "evidence": "reports/tables/indicateurs_cles.json"
+    },
+    {
+      "check_id": "exports",
+      "status": "pass",
+      "detail": "714 lignes analytiques, 165 constats qualité, 11 figures PNG+SVG",
+      "evidence": "reports/figures/ et reports/tables/"
+    },
+    {
+      "check_id": "documentation",
+      "status": "pass",
+      "detail": "README et 10 documents de preuve présents",
+      "evidence": "README.md et docs/"
+    },
+    {
+      "check_id": "presentation",
+      "status": "pass",
+      "detail": "12 slides, paquet lisible, 12 blocs de notes [Sources]",
+      "evidence": "reports/BottleNeck_CODIR.pptx"
+    }
+  ],
+  "presentation_qa": {
+    "visual_review": "12/12 slides inspected after final render",
+    "slides_test": "pass - no overflow detected",
+    "template_fidelity": "pass - 0 issue",
+    "evidence": [
+      ".tmp/presentation/final-render/",
+      ".tmp/presentation/qa/template-fidelity-check.json"
+    ]
+  },
+  "summary": {
+    "commands_passed": 5,
+    "commands_total": 5,
+    "checks_passed": 7,
+    "checks_total": 7
+  }
+}

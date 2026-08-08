@@ -1,0 +1,63 @@
+{
+  "period": {
+    "sales": "octobre uniquement",
+    "stock": "état au 31 octobre"
+  },
+  "source_rows": {
+    "erp": 825,
+    "web_raw": 1513,
+    "web_products": 716,
+    "liaison": 825
+  },
+  "data_quality": {
+    "erp_unique_product_ids": 825,
+    "liaison_non_null_web_ids": 734,
+    "liaison_missing_web_ids": 91,
+    "web_products_valid_sku": 714,
+    "matched_web_products": 714,
+    "web_sku_match_rate": 1.0,
+    "erp_mapping_coverage": 0.8896969696969697,
+    "loading_warnings": 3,
+    "issues_by_category": {
+      "anomalie_probable": 125,
+      "erreur_certaine": 7,
+      "inhabituel_plausible": 33
+    }
+  },
+  "sales": {
+    "revenue_october_ttc": 143680.09999999998,
+    "revenue_october_ttc_decimal_check": 143680.1,
+    "reconciliation_difference": 0.0,
+    "units_sold_october": 5751.0,
+    "references_with_sales": 689,
+    "top_10_revenue_share": 0.06909794745410117,
+    "top_20_revenue_share": 0.11017461708336786,
+    "top_100_revenue_share": 0.31762644931344003,
+    "references_for_80pct_revenue": 435,
+    "catalogue_share_for_80pct_revenue": 0.6092436974789915,
+    "hhi_revenue": 0.002217125563121977
+  },
+  "margin": {
+    "vat_assumption": 0.2,
+    "gross_margin_october_ht": 44660.64666666667,
+    "weighted_markup_rate_on_sales": 0.37300068694272903,
+    "margin_rate_on_cost": 0.5948980791126618,
+    "negative_markup_references": 1
+  },
+  "stock": {
+    "full_erp_stock_units_raw_signed": 17811.0,
+    "full_erp_stock_value_cost_ht_raw_signed": 298555.76,
+    "full_erp_stock_units_valid": 17822.0,
+    "full_erp_stock_value_cost_ht": 298627.66000000003,
+    "matched_stock_units_raw_signed": 16739.0,
+    "matched_stock_value_cost_ht_raw_signed": 277305.77,
+    "matched_stock_units_valid": 16740.0,
+    "matched_stock_value_cost_ht": 277328.06999999995,
+    "matched_stock_value_retail_ttc": 494637.9,
+    "stock_without_october_sales_references": 3,
+    "stock_without_october_sales_value_cost_ht": 14959.400000000001,
+    "potential_stockout_references": 22,
+    "over_12_months_references": 24,
+    "over_12_months_value_cost_ht": 95011.92000000001
+  }
+}

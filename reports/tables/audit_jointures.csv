@@ -1,0 +1,7 @@
+﻿join,status,rows
+ERP ↔ LIAISON,left_only,0
+ERP ↔ LIAISON,right_only,0
+ERP ↔ LIAISON,both,825
+LIAISON (clé Web non vide) ↔ WEB produits,left_only,20
+LIAISON (clé Web non vide) ↔ WEB produits,right_only,0
+LIAISON (clé Web non vide) ↔ WEB produits,both,714

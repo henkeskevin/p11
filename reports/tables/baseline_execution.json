@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-08",
+  "source": "archive/original/Henkes_Kevin_1_notebook_012026.ipynb",
+  "source_sha256": "a2c094641fbeae20bb85c5cc18a9c79b9c497624494bd92605d9c95fe971cdec",
+  "command": ".\\.venv\\Scripts\\python.exe scripts\\execute_notebook.py archive\\original\\Henkes_Kevin_1_notebook_012026.ipynb --output .tmp\\baseline-executed.ipynb",
+  "strict_execution": {
+    "exit_code": 1,
+    "elapsed_seconds": 5.02,
+    "failing_notebook_cell_1_based": 5,
+    "exception": "nbclient.exceptions.CellExecutionError",
+    "root_cause": "ModuleNotFoundError: No module named 'google.colab'",
+    "next_known_blocker": "/content/drive/MyDrive/p6/web.xlsx"
+  },
+  "controlled_diagnostic": {
+    "executed_code_cells": 72,
+    "elapsed_seconds": 5.315569,
+    "neutralized": [
+      "Google Colab mount",
+      "absolute Google Drive paths replaced by local paths",
+      "interactive rendering",
+      "final CSV overwrite"
+    ],
+    "remaining_failure": "ModuleNotFoundError: No module named 'seaborn'"
+  },
+  "repeatability_probe": {
+    "cold_seconds": 5.8188,
+    "warm_seconds": 1.499464,
+    "final_dataframe_sha256": "2000d34e97a3b8129e65f4cedc3bf1eaf2e333185c0794dfd34cfd3c7df0435a"
+  },
+  "note": "Le diagnostic contrôlé n'est pas assimilé à une exécution réussie du notebook original."
+}

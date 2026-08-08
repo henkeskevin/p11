@@ -1,0 +1,20 @@
+.venv/
+.tmp/
+.pytest_cache/
+**/__pycache__/
+*.py[cod]
+.coverage
+htmlcov/
+
+# Fichiers de travail Office
+~$*
+
+# Copies historiques conservées dans archive/original et sources structurées dans data/raw
+/Henkes_Kevin_1_notebook_012026.ipynb
+/Henkes_Kevin_2_presentation_012026.pptx
+/df_merge.csv
+/erp.xlsx
+/liaison.xlsx
+/web.xlsx
+/prompt.docx
+
