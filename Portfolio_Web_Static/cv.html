@@ -58,21 +58,20 @@
           <h1><span data-lang="fr">Parcours, compétences et réalisations.</span><span data-lang="en">Background, skills and achievements.</span></h1>
           <p><span data-lang="fr">Le PDF est intégré ci-dessous et peut être téléchargé. Une version HTML structurée suit pour faciliter la lecture sur mobile, l’agrandissement du texte et l’usage d’un lecteur d’écran.</span><span data-lang="en">The PDF is embedded below and can be downloaded. A structured HTML version follows for easier mobile reading, text enlargement and screen-reader access.</span></p>
           <div class="cv-actions">
-            <a class="button button-primary" href="assets/cv/CV_Kevin_Henkes_public.pdf" download><span data-lang="fr">Télécharger le CV PDF</span><span data-lang="en">Download PDF résumé</span></a>
+            <a class="button button-primary" href="assets/cv/CV_Kevin_Henkes_public.pdf" data-cv-fr="assets/cv/CV_Kevin_Henkes_public.pdf" data-cv-en="assets/cv/CV_Kevin_Henkes_public_en.pdf" download><span data-lang="fr">Télécharger le CV PDF</span><span data-lang="en">Download PDF résumé</span></a>
             <a class="button button-secondary" href="#cv-accessible"><span data-lang="fr">Lire la version accessible</span><span data-lang="en">Read accessible version</span></a>
-          </div>
-          <p class="privacy-note"><span aria-hidden="true">●</span><span><span data-lang="fr">Pour protéger les données personnelles, l’adresse postale et le numéro de téléphone ont été retirés de cette version publique.</span><span data-lang="en">To protect personal data, the postal address and phone number have been removed from this public version.</span></span></p>
-        </div>
+          </div>        
+		</div>
       </header>
 
       <section class="section section-alt" aria-labelledby="cv-pdf-titre">
         <div class="container">
           <h2 id="cv-pdf-titre" class="sr-only"><span data-lang="fr">CV au format PDF intégré</span><span data-lang="en">Embedded PDF résumé</span></h2>
           <div class="cv-embed">
-            <object data="assets/cv/CV_Kevin_Henkes_public.pdf#view=FitH" type="application/pdf" aria-label="CV public de Kevin Henkes au format PDF" data-aria-fr="CV public de Kevin Henkes au format PDF" data-aria-en="Kevin Henkes public résumé in PDF format">
+            <object data="assets/cv/CV_Kevin_Henkes_public.pdf#view=FitH" data-cv-pdf data-src-fr="assets/cv/CV_Kevin_Henkes_public.pdf#view=FitH" data-src-en="assets/cv/CV_Kevin_Henkes_public_en.pdf#view=FitH" type="application/pdf" aria-label="CV public de Kevin Henkes au format PDF" data-aria-fr="CV public de Kevin Henkes au format PDF" data-aria-en="Kevin Henkes public résumé in PDF format">
               <div class="cv-fallback">
                 <p><span data-lang="fr">Votre navigateur ne peut pas afficher le PDF intégré.</span><span data-lang="en">Your browser cannot display the embedded PDF.</span></p>
-                <a class="button button-primary" href="assets/cv/CV_Kevin_Henkes_public.pdf"><span data-lang="fr">Ouvrir le PDF</span><span data-lang="en">Open PDF</span></a>
+                <a class="button button-primary" href="assets/cv/CV_Kevin_Henkes_public.pdf" data-cv-fr="assets/cv/CV_Kevin_Henkes_public.pdf" data-cv-en="assets/cv/CV_Kevin_Henkes_public_en.pdf"><span data-lang="fr">Ouvrir le PDF</span><span data-lang="en">Open PDF</span></a>
               </div>
             </object>
           </div>
@@ -96,6 +95,13 @@
                 <li><span data-lang="fr">Analyse exploratoire et visualisation</span><span data-lang="en">Exploratory analysis and visualization</span></li>
                 <li><span data-lang="fr">Automatisation et KPI</span><span data-lang="en">Automation and KPIs</span></li>
                 <li><span data-lang="fr">Restitution et interprétation des résultats</span><span data-lang="en">Results communication and interpretation</span></li>
+              </ul>
+
+              <h3><span data-lang="fr">Technologies</span><span data-lang="en">Technologies</span></h3>
+              <ul>
+                <li><strong>Data :</strong> pandas · scikit-learn · Jupyter · PostgreSQL</li>
+                <li><strong>BI :</strong> Power BI · Power Query · DAX</li>
+                <li><strong><span data-lang="fr">Développement :</span><span data-lang="en">Development:</span></strong> Python · Java · API · XML · VBA · <span data-lang="fr">tests</span><span data-lang="en">testing</span></li>
               </ul>
 
               <h3><span data-lang="fr">Centres d’intérêt</span><span data-lang="en">Interests</span></h3>

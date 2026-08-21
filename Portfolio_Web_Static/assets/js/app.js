@@ -111,6 +111,13 @@
     document.querySelectorAll("[data-aria-fr][data-aria-en]").forEach((element) => {
       element.setAttribute("aria-label", element.getAttribute(`data-aria-${state.language}`) || "");
     });
+    document.querySelectorAll("[data-cv-fr][data-cv-en]").forEach((link) => {
+      link.setAttribute("href", link.getAttribute(`data-cv-${state.language}`) || "");
+    });
+    document.querySelectorAll("[data-cv-pdf][data-src-fr][data-src-en]").forEach((embed) => {
+      const source = embed.getAttribute(`data-src-${state.language}`) || "";
+      if (embed.getAttribute("data") !== source) embed.setAttribute("data", source);
+    });
   }
 
   document.querySelectorAll("[data-language-toggle]").forEach((button) => {
