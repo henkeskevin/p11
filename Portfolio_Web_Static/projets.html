@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f4f1e8">
+    <meta name="description" content="Cinq études de cas data de Kevin Henkes : Python, Power BI, machine learning, étude de marché et SQL.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Projets — Kevin Henkes">
+    <meta property="og:description" content="Cinq projets présentés par leur question métier, leurs preuves et leurs limites.">
+    <title>Projets — Kevin Henkes</title>
+    <link rel="stylesheet" href="assets/css/styles.css?v=20260821-4">
+    <script src="assets/js/app.js?v=20260821-4" defer></script>
+  </head>
+  <body data-language="fr" data-theme="light" data-contrast="normal" data-text="normal">
+    <span class="sr-only" data-page-title data-lang="fr">Projets — Kevin Henkes</span>
+    <span class="sr-only" data-page-title data-lang="en">Projects — Kevin Henkes</span>
+    <span class="sr-only" data-page-description data-lang="fr">Cinq études de cas data de Kevin Henkes : Python, Power BI, machine learning, étude de marché et SQL.</span>
+    <span class="sr-only" data-page-description data-lang="en">Five data case studies by Kevin Henkes: Python, Power BI, machine learning, market analysis and SQL.</span>
+
+    <a class="skip-link" href="#contenu"><span data-lang="fr">Aller au contenu</span><span data-lang="en">Skip to content</span></a>
+
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="index.html" aria-label="Kevin Henkes — Accueil" data-aria-fr="Kevin Henkes — Accueil" data-aria-en="Kevin Henkes — Home">
+          <span class="brand-mark" aria-hidden="true">KH</span><span class="brand-text">Kevin Henkes</span>
+        </a>
+        <button class="menu-button" type="button" data-menu-toggle aria-expanded="false" aria-controls="navigation-principale"><span data-lang="fr">Menu</span><span data-lang="en">Menu</span></button>
+        <nav class="main-nav" id="navigation-principale" data-main-nav aria-label="Navigation principale" data-aria-fr="Navigation principale" data-aria-en="Main navigation">
+          <ul>
+            <li><a href="index.html"><span data-lang="fr">Accueil</span><span data-lang="en">Home</span></a></li>
+            <li><a href="projets.html" aria-current="page"><span data-lang="fr">Projets</span><span data-lang="en">Projects</span></a></li>
+            <li><a href="a-propos.html"><span data-lang="fr">À propos</span><span data-lang="en">About</span></a></li>
+            <li><a href="cv.html"><span data-lang="fr">CV</span><span data-lang="en">Résumé</span></a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <button class="control-button" type="button" data-language-toggle><span aria-hidden="true">文</span><span data-language-label>EN</span></button>
+          <button class="control-button" type="button" data-access-toggle aria-expanded="false" aria-controls="reglages-accessibilite"><span aria-hidden="true">Aa</span><span class="control-label" data-lang="fr">Affichage</span><span class="control-label" data-lang="en">Display</span></button>
+        </div>
+      </div>
+    </header>
+
+    <aside class="access-panel" id="reglages-accessibilite" data-access-panel hidden aria-labelledby="titre-accessibilite">
+      <h2 id="titre-accessibilite"><span data-lang="fr">Confort visuel</span><span data-lang="en">Visual comfort</span></h2>
+      <p><span data-lang="fr">Ces réglages sont mémorisés uniquement dans votre navigateur.</span><span data-lang="en">These settings are stored only in your browser.</span></p>
+      <div class="access-grid">
+        <button class="control-button" type="button" data-theme-toggle aria-pressed="false"><span data-lang="fr">Clair / sombre</span><span data-lang="en">Light / dark</span></button>
+        <button class="control-button" type="button" data-contrast-toggle aria-pressed="false"><span data-lang="fr">Contraste +</span><span data-lang="en">Contrast +</span></button>
+        <button class="control-button" type="button" data-text-toggle aria-pressed="false"><span data-lang="fr">Texte agrandi</span><span data-lang="en">Larger text</span></button>
+        <button class="control-button" type="button" data-language-toggle><span data-lang="fr">English</span><span data-lang="en">Français</span></button>
+      </div>
+    </aside>
+
+    <main id="contenu">
+      <header class="page-intro">
+        <div class="container">
+          <p class="eyebrow"><span data-lang="fr">Cinq études de cas</span><span data-lang="en">Five case studies</span></p>
+          <h1><span data-lang="fr">Des décisions appuyées par des preuves.</span><span data-lang="en">Decisions backed by evidence.</span></h1>
+          <p><span data-lang="fr">Chaque projet est raconté de la même façon : le problème, le travail réalisé, le résultat, puis les limites. Les graphiques affichés proviennent des livrables du projet.</span><span data-lang="en">Every project follows the same structure: problem, work performed, outcome, then limitations. The charts shown come from the project deliverables.</span></p>
+        </div>
+      </header>
+
+      <nav class="project-nav" aria-label="Accès direct aux projets" data-aria-fr="Accès direct aux projets" data-aria-en="Direct project navigation">
+        <div class="container">
+          <ul>
+            <li><a data-project-link href="#bottleneck">01 · BottleNeck</a></li>
+            <li><a data-project-link href="#powerbi">02 · Power BI</a></li>
+            <li><a data-project-link href="#immobilier"><span data-lang="fr">03 · Immobilier ML</span><span data-lang="en">03 · Real estate ML</span></a></li>
+            <li><a data-project-link href="#uoi-games">04 · UOI Games</a></li>
+            <li><a data-project-link href="#retail">05 · Retail SQL</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <article class="case-study" id="bottleneck" aria-labelledby="bottleneck-titre">
+        <div class="container">
+          <header class="case-head">
+            <div class="case-number" aria-hidden="true">01</div>
+            <div>
+              <p class="eyebrow">Python · pandas · Data quality</p>
+              <h2 id="bottleneck-titre"><span data-lang="fr">BottleNeck : trois sources, une vérité métier</span><span data-lang="en">BottleNeck: three sources, one business truth</span></h2>
+              <p class="case-summary"><span data-lang="fr">Relier ERP, table de liaison et catalogue Web sans double comptage, clés inventées ni conclusion opaque.</span><span data-lang="en">Connect ERP, mapping table and Web catalogue without double counting, invented keys or opaque conclusions.</span></p>
+            </div>
+          </header>
+          <div class="case-layout">
+            <div class="case-copy">
+              <h3><span data-lang="fr">Le problème</span><span data-lang="en">The problem</span></h3>
+              <p><span data-lang="fr">Identifier les produits qui vendent, génèrent de la marge ou immobilisent du stock. Les données comportaient des doublons produit/pièce jointe, des SKU manquants et des risques de jointure plusieurs-à-plusieurs.</span><span data-lang="en">Identify products that sell, generate margin or tie up inventory. The data included product/attachment duplicates, missing SKUs and many-to-many join risks.</span></p>
+              <h3><span data-lang="fr">Ce que j’ai construit</span><span data-lang="en">What I built</span></h3>
+              <ul>
+                <li><span data-lang="fr">Pipeline reproductible de préparation, filtrage et rapprochement.</span><span data-lang="en">Reproducible preparation, filtering and reconciliation pipeline.</span></li>
+                <li><span data-lang="fr">Contrôles explicites de cardinalité et quarantaine des clés nulles.</span><span data-lang="en">Explicit cardinality checks and quarantine of null keys.</span></li>
+                <li><span data-lang="fr">Notebook exécuté, tests automatisés et livrable de synthèse pour le CODIR.</span><span data-lang="en">Executed notebook, automated tests and executive summary deliverable.</span></li>
+              </ul>
+              <h3><span data-lang="fr">Résultat et limite</span><span data-lang="en">Outcome and limitation</span></h3>
+              <p><span data-lang="fr">714 produits Web rapprochés, 143,7 k€ de CA TTC d’octobre et 44,7 k€ de marge brute HT. Le périmètre couvre octobre et le stock au 31 octobre : aucune projection annuelle n’est présentée.</span><span data-lang="en">714 Web products reconciled, €143.7k October revenue including tax and €44.7k gross margin excluding tax. The scope covers October and inventory as of 31 October: no annual projection is presented.</span></p>
+              <ul class="tag-list" aria-label="Technologies"><li>Python</li><li>pandas</li><li>pytest</li><li>Jupyter</li><li>Data quality</li></ul>
+            </div>
+            <aside class="case-evidence" aria-label="Éléments de preuve BottleNeck" data-aria-fr="Éléments de preuve BottleNeck" data-aria-en="BottleNeck evidence">
+              <figure class="evidence-card">
+                <img src="assets/images/bottleneck-pipeline.png" width="1600" height="900" alt="" data-alt-fr="Graphique montrant 825 lignes ERP, 768 lignes Web produit et 714 produits Web rapprochés" data-alt-en="Chart showing 825 ERP rows, 768 Web product rows and 714 reconciled Web products">
+                <figcaption><span data-lang="fr">Rapprochement traçable des trois sources.</span><span data-lang="en">Traceable reconciliation across three sources.</span></figcaption>
+              </figure>
+              <figure class="evidence-card">
+                <img src="assets/images/bottleneck-pareto.png" width="1600" height="900" alt="" data-alt-fr="Courbe de Pareto du chiffre d’affaires d’octobre par produit" data-alt-en="Pareto curve of October revenue by product">
+                <figcaption><span data-lang="fr">Pareto du CA pour concentrer la décision sur les références qui comptent.</span><span data-lang="en">Revenue Pareto used to focus decisions on the products that matter.</span></figcaption>
+              </figure>
+              <details class="evidence-data">
+                <summary><span data-lang="fr">Données clés du projet</span><span data-lang="en">Key project data</span></summary>
+                <dl>
+                  <dt><span data-lang="fr">Sources</span><span data-lang="en">Sources</span></dt><dd>ERP · liaison · Web</dd>
+                  <dt><span data-lang="fr">Validation</span><span data-lang="en">Validation</span></dt><dd>5/5 commandes · 17 tests</dd>
+                  <dt><span data-lang="fr">Produits</span><span data-lang="en">Products</span></dt><dd>714</dd>
+                  <dt><span data-lang="fr">Périmètre</span><span data-lang="en">Scope</span></dt><dd><span data-lang="fr">Octobre uniquement</span><span data-lang="en">October only</span></dd>
+                </dl>
+              </details>
+            </aside>
+          </div>
+        </div>
+      </article>
+
+      <article class="case-study" id="powerbi" aria-labelledby="powerbi-titre">
+        <div class="container">
+          <header class="case-head">
+            <div class="case-number" aria-hidden="true">02</div>
+            <div>
+              <p class="eyebrow">Power BI · Power Query · DAX</p>
+              <h2 id="powerbi-titre"><span data-lang="fr">Piloter ventes, marge et stock</span><span data-lang="en">Steer sales, margin and inventory</span></h2>
+              <p class="case-summary"><span data-lang="fr">Transformer des données SQL et CSV en deux pages de décision, des KPI cohérents et des recommandations priorisées.</span><span data-lang="en">Turn SQL and CSV data into two decision pages, consistent KPIs and prioritized recommendations.</span></p>
+            </div>
+          </header>
+          <div class="case-layout">
+            <div class="case-copy">
+              <h3><span data-lang="fr">Le problème</span><span data-lang="en">The problem</span></h3>
+              <p><span data-lang="fr">La direction devait suivre simultanément chiffre d’affaires, marge, prix d’achat, stock et promotions, puis passer du niveau global aux causes produit.</span><span data-lang="en">Management needed to track revenue, margin, purchase prices, inventory and promotions while moving from the global picture to product-level causes.</span></p>
+              <h3><span data-lang="fr">Ce que j’ai construit</span><span data-lang="en">What I built</span></h3>
+              <ul>
+                <li><span data-lang="fr">Chaîne SQL/CSV → Power Query → modèle relationnel → mesures DAX.</span><span data-lang="en">SQL/CSV → Power Query → relational model → DAX measures pipeline.</span></li>
+                <li><span data-lang="fr">Vue de performance et page de recommandations partageant les mêmes filtres.</span><span data-lang="en">Performance view and recommendation page sharing the same filters.</span></li>
+                <li><span data-lang="fr">Lecture guidée des KPI, des produits et de la couverture de stock.</span><span data-lang="en">Guided reading of KPIs, products and inventory coverage.</span></li>
+              </ul>
+              <h3><span data-lang="fr">Résultat et limite</span><span data-lang="en">Outcome and limitation</span></h3>
+              <p><span data-lang="fr">Le tableau de bord synthétise 2,41 M€ de CA HT, 45,9 % de taux de marge et 4,2× de rotation du stock sur la période du 1er octobre 2022 au 30 septembre 2023. L’étape suivante identifiée est l’industrialisation des mises à jour et la sécurité par rôle.</span><span data-lang="en">The dashboard summarizes €2.41m revenue excluding tax, a 45.9% margin rate and 4.2× inventory turnover from 1 October 2022 to 30 September 2023. The identified next step is update industrialization and role-based security.</span></p>
+              <ul class="tag-list" aria-label="Technologies"><li>Power BI</li><li>Power Query</li><li>DAX</li><li>SQL</li><li>Data visualization</li></ul>
+            </div>
+            <aside class="case-evidence" aria-label="Éléments de preuve Power BI" data-aria-fr="Éléments de preuve Power BI" data-aria-en="Power BI evidence">
+              <figure class="evidence-card">
+                <img src="assets/images/powerbi-overview.png" width="1600" height="900" alt="" data-alt-fr="Tableau de bord Power BI montrant le chiffre d’affaires, la marge, les stocks et les promotions" data-alt-en="Power BI dashboard showing revenue, margin, inventory and promotions">
+                <figcaption><span data-lang="fr">Vue d’ensemble : performance et causes réunies.</span><span data-lang="en">Overview: performance and drivers in one place.</span></figcaption>
+              </figure>
+              <figure class="evidence-card">
+                <img src="assets/images/powerbi-actions.png" width="1600" height="900" alt="" data-alt-fr="Page de recommandations Power BI avec trois graphiques et un tableau de priorisation" data-alt-en="Power BI recommendation page with three charts and a prioritization table">
+                <figcaption><span data-lang="fr">Trois graphiques conduisent à trois décisions priorisées.</span><span data-lang="en">Three charts lead to three prioritized decisions.</span></figcaption>
+              </figure>
+              <details class="evidence-data">
+                <summary><span data-lang="fr">Données clés du projet</span><span data-lang="en">Key project data</span></summary>
+                <dl><dt>CA HT</dt><dd>2,41 M€</dd><dt><span data-lang="fr">Taux de marge</span><span data-lang="en">Margin rate</span></dt><dd>45,9 %</dd><dt><span data-lang="fr">Rotation stock</span><span data-lang="en">Inventory turnover</span></dt><dd>4,2×</dd><dt>KPI</dt><dd>5</dd></dl>
+              </details>
+            </aside>
+          </div>
+        </div>
+      </article>
+
+      <article class="case-study" id="immobilier" aria-labelledby="immobilier-titre">
+        <div class="container">
+          <header class="case-head">
+            <div class="case-number" aria-hidden="true">03</div>
+            <div>
+              <p class="eyebrow">Python · scikit-learn · Machine learning</p>
+              <h2 id="immobilier-titre"><span data-lang="fr">Valoriser 275 actifs, erreur mesurée</span><span data-lang="en">Value 275 assets with measured error</span></h2>
+              <p class="case-summary"><span data-lang="fr">Analyser le marché parisien, estimer un portefeuille et classer automatiquement des biens sans confondre modèle et expertise immobilière.</span><span data-lang="en">Analyze the Paris market, value a portfolio and automatically classify properties without confusing a model with property expertise.</span></p>
+            </div>
+          </header>
+          <div class="case-layout">
+            <div class="case-copy">
+              <h3><span data-lang="fr">Le problème</span><span data-lang="en">The problem</span></h3>
+              <p><span data-lang="fr">Estimer au 31 décembre 2022 la valeur d’actifs parisiens à partir de transactions 2017–2021, puis distinguer appartements et locaux commerciaux.</span><span data-lang="en">Estimate the value of Paris assets as of 31 December 2022 from 2017–2021 transactions, then distinguish apartments from commercial premises.</span></p>
+              <h3><span data-lang="fr">Ce que j’ai construit</span><span data-lang="en">What I built</span></h3>
+              <ul>
+                <li><span data-lang="fr">Analyse temporelle, géographique et par type de bien.</span><span data-lang="en">Time, location and property-type analysis.</span></li>
+                <li><span data-lang="fr">Régression linéaire avec séparation chronologique 67/33.</span><span data-lang="en">Linear regression with a 67/33 chronological split.</span></li>
+                <li><span data-lang="fr">Classification en deux catégories et lecture critique des erreurs.</span><span data-lang="en">Two-category classification and critical interpretation of errors.</span></li>
+              </ul>
+              <h3><span data-lang="fr">Résultat et limite</span><span data-lang="en">Outcome and limitation</span></h3>
+              <p><span data-lang="fr">Erreur moyenne de 10,8 % (MAE ≈ 53,2 k€), valorisations de 79,16 M€ et 103,87 M€ selon les segments, et 89,23 % de précision de classification sur l’échantillon. Ces valeurs donnent un ordre de grandeur, pas une expertise immobilière.</span><span data-lang="en">Average error of 10.8% (MAE ≈ €53.2k), valuations of €79.16m and €103.87m by segment, and 89.23% classification accuracy on the sample. These values provide an order of magnitude, not a property appraisal.</span></p>
+              <ul class="tag-list" aria-label="Technologies"><li>Python</li><li>pandas</li><li>scikit-learn</li><li>Regression</li><li>Classification</li></ul>
+            </div>
+            <aside class="case-evidence" aria-label="Éléments de preuve immobilier" data-aria-fr="Éléments de preuve immobilier" data-aria-en="Real-estate project evidence">
+              <figure class="evidence-card">
+                <img src="assets/images/immobilier-location.png" width="1600" height="900" alt="" data-alt-fr="Graphique montrant l’évolution du prix au mètre carré dans les arrondissements parisiens" data-alt-en="Chart showing price per square metre over time across Paris districts">
+                <figcaption><span data-lang="fr">La localisation crée un écart structurel de valeur.</span><span data-lang="en">Location creates a structural value gap.</span></figcaption>
+              </figure>
+              <figure class="evidence-card">
+                <img src="assets/images/immobilier-types.png" width="1600" height="900" alt="" data-alt-fr="Graphique comparant le prix au mètre carré des appartements et des locaux commerciaux" data-alt-en="Chart comparing price per square metre for apartments and commercial premises">
+                <figcaption><span data-lang="fr">Le type de bien reste une variable explicative distincte.</span><span data-lang="en">Property type remains a distinct explanatory variable.</span></figcaption>
+              </figure>
+              <details class="evidence-data">
+                <summary><span data-lang="fr">Données clés du projet</span><span data-lang="en">Key project data</span></summary>
+                <dl><dt><span data-lang="fr">Transactions</span><span data-lang="en">Transactions</span></dt><dd>26 196</dd><dt><span data-lang="fr">Actifs</span><span data-lang="en">Assets</span></dt><dd>275</dd><dt>MAE</dt><dd>≈ 53,2 k€</dd><dt><span data-lang="fr">Classification</span><span data-lang="en">Classification</span></dt><dd>89,23 %</dd></dl>
+              </details>
+            </aside>
+          </div>
+        </div>
+      </article>
+
+      <article class="case-study" id="uoi-games" aria-labelledby="uoi-titre">
+        <div class="container">
+          <header class="case-head">
+            <div class="case-number" aria-hidden="true">04</div>
+            <div>
+              <p class="eyebrow">Market analysis · SWOT · PESTEL · Regression</p>
+              <h2 id="uoi-titre"><span data-lang="fr">UOI Games : décider dans un marché incertain</span><span data-lang="en">UOI Games: decide in an uncertain market</span></h2>
+              <p class="case-summary"><span data-lang="fr">Combiner tendances, segmentation, analyse stratégique et prévision exploratoire pour cadrer le lancement d’un jeu AAA.</span><span data-lang="en">Combine trends, segmentation, strategic analysis and exploratory forecasting to frame a AAA game launch.</span></p>
+            </div>
+          </header>
+          <div class="case-layout">
+            <div class="case-copy">
+              <h3><span data-lang="fr">Le problème</span><span data-lang="en">The problem</span></h3>
+              <p><span data-lang="fr">Le développement AAA est long, coûteux et risqué. L’analyse devait identifier un segment pertinent, un positionnement réaliste et les conditions d’une décision de lancement.</span><span data-lang="en">AAA development is long, expensive and risky. The analysis had to identify a relevant segment, a realistic positioning and the conditions for a launch decision.</span></p>
+              <h3><span data-lang="fr">Ce que j’ai construit</span><span data-lang="en">What I built</span></h3>
+              <ul>
+                <li><span data-lang="fr">SWOT et PESTEL reliés à des choix produit et de mise sur le marché.</span><span data-lang="en">SWOT and PESTEL tied to product and go-to-market choices.</span></li>
+                <li><span data-lang="fr">Analyse des genres, plateformes, régions et segments clients.</span><span data-lang="en">Analysis of genres, platforms, regions and customer segments.</span></li>
+                <li><span data-lang="fr">Régression linéaire exploratoire avec erreur et limites rendues visibles.</span><span data-lang="en">Exploratory linear regression with visible error and limitations.</span></li>
+              </ul>
+              <h3><span data-lang="fr">Résultat et limite</span><span data-lang="en">Outcome and limitation</span></h3>
+              <p><span data-lang="fr">Recommandation d’un action-RPG premium PC/console, avec décision Go conditionnelle à un vertical slice et une enquête réelle. Le modèle atteint une MAE test de 0,62 M d’unités et un R² log de 0,41 : utile pour un ordre de grandeur, insuffisant pour prévoir un blockbuster.</span><span data-lang="en">Recommendation for a premium PC/console action RPG, with a Go decision conditional on a vertical slice and a real survey. The model reaches a test MAE of 0.62m units and a log R² of 0.41: useful for an order of magnitude, insufficient to forecast a blockbuster.</span></p>
+              <ul class="tag-list" aria-label="Technologies"><li>Python</li><li>SWOT</li><li>PESTEL</li><li>Segmentation</li><li>Regression</li></ul>
+            </div>
+            <aside class="case-evidence" aria-label="Éléments de preuve UOI Games" data-aria-fr="Éléments de preuve UOI Games" data-aria-en="UOI Games evidence">
+              <figure class="evidence-card">
+                <img src="assets/images/uoi-trends.png" width="1600" height="900" alt="" data-alt-fr="Trois graphiques présentant les tendances historiques, les genres et les régions du marché du jeu vidéo" data-alt-en="Three charts showing historical trends, genres and regions in the video-game market">
+                <figcaption><span data-lang="fr">Les tendances servent à réduire le champ des décisions, pas à supprimer l’incertitude.</span><span data-lang="en">Trends narrow the decision space; they do not remove uncertainty.</span></figcaption>
+              </figure>
+              <figure class="evidence-card">
+                <img src="assets/images/uoi-regression.png" width="1600" height="900" alt="" data-alt-fr="Nuage de points comparant ventes réelles et prédites du modèle UOI Games" data-alt-en="Scatter plot comparing actual and predicted sales for the UOI Games model">
+                <figcaption><span data-lang="fr">Le graphique montre l’erreur et les très gros succès mal captés.</span><span data-lang="en">The chart exposes error and poorly captured blockbuster outcomes.</span></figcaption>
+              </figure>
+              <details class="evidence-data">
+                <summary><span data-lang="fr">Données clés du projet</span><span data-lang="en">Key project data</span></summary>
+                <dl><dt>MAE test</dt><dd>0,62 M</dd><dt>RMSE test</dt><dd>2,08 M</dd><dt>R² log</dt><dd>0,41</dd><dt><span data-lang="fr">Décision</span><span data-lang="en">Decision</span></dt><dd>Go conditionnel</dd></dl>
+              </details>
+            </aside>
+          </div>
+        </div>
+      </article>
+
+      <article class="case-study" id="retail" aria-labelledby="retail-titre">
+        <div class="container">
+          <header class="case-head">
+            <div class="case-number" aria-hidden="true">05</div>
+            <div>
+              <p class="eyebrow">PostgreSQL · Data modelling · Customer analytics</p>
+              <h2 id="retail-titre"><span data-lang="fr">Retail Insight 360 : écouter les retours clients avec SQL</span><span data-lang="en">Retail Insight 360: listen to customer feedback with SQL</span></h2>
+              <p class="case-summary"><span data-lang="fr">Structurer les données de satisfaction puis traduire 17 questions métier en requêtes vérifiables.</span><span data-lang="en">Structure satisfaction data and translate 17 business questions into verifiable queries.</span></p>
+            </div>
+          </header>
+          <div class="case-layout">
+            <div class="case-copy">
+              <h3><span data-lang="fr">Le problème</span><span data-lang="en">The problem</span></h3>
+              <p><span data-lang="fr">BestMarket voulait exploiter les retours clients pour améliorer les magasins, l’expérience d’achat et la fidélisation, tout en gardant des données cohérentes et interrogeables.</span><span data-lang="en">BestMarket wanted to use customer feedback to improve stores, shopping experience and loyalty while keeping the data consistent and queryable.</span></p>
+              <h3><span data-lang="fr">Ce que j’ai construit</span><span data-lang="en">What I built</span></h3>
+              <ul>
+                <li><span data-lang="fr">Dictionnaire de données et schéma relationnel à trois tables.</span><span data-lang="en">Data dictionary and three-table relational schema.</span></li>
+                <li><span data-lang="fr">17 requêtes sur notes, magasins, catégories, canaux, recommandations et NPS.</span><span data-lang="en">17 queries covering ratings, stores, categories, channels, recommendations and NPS.</span></li>
+                <li><span data-lang="fr">Contrôles de doublons, références et inclusion entre tables.</span><span data-lang="en">Duplicate, reference and cross-table inclusion checks.</span></li>
+              </ul>
+              <h3><span data-lang="fr">Résultat et limite</span><span data-lang="en">Outcome and limitation</span></h3>
+              <p><span data-lang="fr">Le dispositif calcule notamment 71 % de recommandations et un NPS de 30,97, puis permet de comparer magasins, départements et sources. Les résultats décrivent l’échantillon fourni ; ils ne démontrent pas à eux seuls une causalité.</span><span data-lang="en">The workflow calculates, among other indicators, a 71% recommendation rate and an NPS of 30.97, then compares stores, departments and sources. Results describe the supplied sample; they do not establish causality on their own.</span></p>
+              <ul class="tag-list" aria-label="Technologies"><li>PostgreSQL</li><li>SQL</li><li>Data modelling</li><li>NPS</li><li>Data quality</li></ul>
+            </div>
+            <aside class="case-evidence" aria-label="Éléments de preuve Retail Insight 360" data-aria-fr="Éléments de preuve Retail Insight 360" data-aria-en="Retail Insight 360 evidence">
+              <figure class="evidence-card">
+                <img src="assets/images/sql-schema.png" width="1600" height="900" alt="" data-alt-fr="Schéma relationnel avec les tables retour client, produit et référence magasin" data-alt-en="Relational schema with customer feedback, product and store reference tables">
+                <figcaption><span data-lang="fr">Le modèle relationnel rend les questions métier interrogeables.</span><span data-lang="en">The relational model makes business questions queryable.</span></figcaption>
+              </figure>
+              <figure class="evidence-card">
+                <img src="assets/images/sql-results.png" width="1600" height="900" alt="" data-alt-fr="Requêtes SQL calculant la progression par type de produit et le NPS" data-alt-en="SQL queries calculating improvement by product type and NPS">
+                <figcaption><span data-lang="fr">Exemple de restitution : évolution trimestrielle et NPS.</span><span data-lang="en">Example output: quarterly change and NPS.</span></figcaption>
+              </figure>
+              <details class="evidence-data">
+                <summary><span data-lang="fr">Données clés du projet</span><span data-lang="en">Key project data</span></summary>
+                <dl><dt><span data-lang="fr">Requêtes</span><span data-lang="en">Queries</span></dt><dd>17</dd><dt><span data-lang="fr">Recommandation</span><span data-lang="en">Recommendation rate</span></dt><dd>71 %</dd><dt>NPS</dt><dd>30,97</dd><dt><span data-lang="fr">Tables</span><span data-lang="en">Tables</span></dt><dd>3</dd></dl>
+              </details>
+            </aside>
+          </div>
+        </div>
+      </article>
+
+      <section class="section">
+        <div class="container cta">
+          <div><h2><span data-lang="fr">Besoin du contexte derrière les chiffres ?</span><span data-lang="en">Need the context behind the numbers?</span></h2><p><span data-lang="fr">Le CV résume mon parcours ; la page À propos explique ma manière de travailler.</span><span data-lang="en">The résumé summarizes my background; the About page explains how I work.</span></p></div>
+          <a class="button" href="a-propos.html"><span data-lang="fr">Découvrir mon profil</span><span data-lang="en">Discover my profile</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© <span data-current-year>2026</span> Kevin Henkes. <span data-lang="fr">Site statique, sans suivi publicitaire.</span><span data-lang="en">Static website, no advertising tracking.</span></p>
+        <ul class="footer-links"><li><a href="mailto:henkeskevin0@gmail.com">Email</a></li><li><a href="cv.html"><span data-lang="fr">CV accessible</span><span data-lang="en">Accessible résumé</span></a></li></ul>
+      </div>
+    </footer>
+  </body>
+</html>
