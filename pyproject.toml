@@ -8,6 +8,7 @@ version = "1.0.0"
 description = "Analyse reproductible des ventes, stocks, prix et marges BottleNeck"
 requires-python = ">=3.12,<3.14"
 dependencies = [
+  "jinja2==3.1.6",
   "matplotlib==3.11.0",
   "nbclient==0.10.4",
   "nbformat==5.11.0",
