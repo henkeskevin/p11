@@ -1,7 +1,7 @@
 # Cahier des charges fonctionnel — BottleNeck
 
-**Version :** 1.0  
-**Date :** 8 août 2026  
+**Version :** 1.1  
+**Date :** 25 août 2026  
 **Périmètre de données :** ventes du mois d’octobre et stock arrêté au 31 octobre  
 **Destinataires :** direction générale, directions commerciale, e-commerce, finance et approvisionnement, équipe data, recruteurs évaluant le portfolio
 
@@ -16,6 +16,15 @@ BottleNeck doit disposer d’une analyse reproductible et contrôlable de ses do
 - permettre à un tiers de reproduire l’analyse à partir du dépôt.
 
 Le livrable de référence est le dépôt exécutable. Le notebook, les documents et les graphiques en sont des vues ; ils ne doivent pas contenir de logique métier divergente.
+
+### 1.1 Pilotage et supports de la partie 1
+
+Le pilotage détaillé est suivi dans le tableau Trello [P11 — Partie 1](https://trello.com/b/swp5d7fb/p11-partie-1). Il contient quatre listes (`Backlog`, `Todo`, `In progress`, `Done`) et douze cartes E01 à E12. À la date de mise à jour, les douze cartes sont dans `Done` et chacune renvoie à une preuve du dépôt.
+
+Deux supports complètent ce cadrage :
+
+- la note formelle `docs/Note_de_cadrage_P11_Partie_1.docx`, qui intègre le Trello, les preuves et le plan de restitution ;
+- le PowerPoint `reports/P11_Partie_1_Explication_12_slides.pptx`, qui explique en douze slides le travail réalisé pendant la partie 1.
 
 ## 2. Contexte, sources et règles d’interprétation
 

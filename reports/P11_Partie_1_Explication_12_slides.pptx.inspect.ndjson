@@ -1,0 +1,189 @@
+{"kind":"deck","id":"pr/35mxmv","name":"Deck"}
+{"kind":"layout","layoutId":"b4fdad7a-6b08-4b62-8edb-3f2c4d656b07","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"aa5ba01f-6564-48c9-a437-9face3973937","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/ot5dtu","slide":1,"title":"P11 · PARTIE 1","textShapes":7}
+{"kind":"textbox","id":"sh/xgjut03e","slide":1,"text":"P11 · PARTIE 1","textPreview":"P11 · PARTIE 1","textChars":14,"textLines":1,"bbox":[48,48,350,28]}
+{"kind":"textbox","id":"sh/adsbi54n","slide":1,"text":"Du notebook fragile\nau projet reproductible","textPreview":"Du notebook fragile | au projet reproductible","textChars":43,"textLines":2,"bbox":[48,132,760,210]}
+{"kind":"textbox","id":"sh/be1crql8","slide":1,"text":"Audit, reconstruction, expériences comparatives et validation du projet BottleNeck","textPreview":"Audit, reconstruction, expériences comparatives et validation du projet BottleNeck","textChars":82,"textLines":1,"bbox":[48,376,720,92]}
+{"kind":"shape","id":"sh/k3atofm5","slide":1,"bbox":[860,94,330,470]}
+{"kind":"textbox","id":"sh/l43uxk3a","slide":1,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[910,168,220,108]}
+{"kind":"textbox","id":"sh/y1sbm54z","slide":1,"text":"cartes Trello\nterminées","textPreview":"cartes Trello | terminées","textChars":23,"textLines":2,"bbox":[910,290,220,92]}
+{"kind":"textbox","id":"sh/j21cvalk","slide":1,"text":"Une partie 1 expliquée\nen 12 slides","textPreview":"Une partie 1 expliquée | en 12 slides","textChars":35,"textLines":2,"bbox":[910,426,220,62]}
+{"kind":"textbox","id":"sh/07qtcbml","slide":1,"text":"25 août 2026","textPreview":"25 août 2026","textChars":12,"textLines":1,"bbox":[48,648,260,26]}
+{"kind":"notes","id":"nt/ot5dtu","slide":1,"text":"[Sources]\n- docs/cahier_des_charges.md\n- docs/audit_initial.md\n- https://trello.com/b/swp5d7fb/p11-partie-1"}
+{"kind":"slide","id":"sl/skyuop","slide":2,"title":"P11 · BOTTLENECK · PARTIE 1 · 02","textShapes":7}
+{"kind":"textbox","id":"sh/jit87i5g","slide":2,"text":"P11 · BOTTLENECK · PARTIE 1 · 02","textPreview":"P11 · BOTTLENECK · PARTIE 1 · 02","textChars":32,"textLines":1,"bbox":[42,36,500,24]}
+{"kind":"textbox","id":"sh/4j29gnm1","slide":2,"text":"Le point de départ empêchait une reproduction fiable","textPreview":"Le point de départ empêchait une reproduction fiable","textChars":52,"textLines":1,"bbox":[42,82,1180,88]}
+{"kind":"textbox","id":"sh/5kvq9sn6","slide":2,"text":"BottleNeck rapproche trois sources pour analyser ventes, marges et stocks.","textPreview":"BottleNeck rapproche trois sources pour analyser ventes, marges et stocks.","textChars":74,"textLines":1,"bbox":[42,176,1180,56]}
+{"kind":"textbox","id":"sh/6l4rix4r","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1178,672,62,22]}
+{"kind":"textbox","id":"sh/snm9knmx","slide":2,"text":"Périmètre à ne pas dépasser","textPreview":"Périmètre à ne pas dépasser","textChars":27,"textLines":1,"bbox":[808,266,390,38]}
+{"kind":"textbox","id":"sh/tovqds3i","slide":2,"text":"Ventes : octobre uniquement\nStock : état au 31 octobre\nAnnée et horodatage non certifiés\nTVA 20 % : hypothèse à confirmer","textPreview":"Ventes : octobre uniquement | Stock : état au 31 octobre | Année et horodatage non certifiés | TVA 20 % : hypothèse à confirmer","textChars":121,"textLines":4,"bbox":[808,326,390,236]}
+{"kind":"textbox","id":"sh/e94rmx43","slide":2,"text":"Le notebook initial dépendait de Colab, de chemins absolus et de transformations silencieuses.","textPreview":"Le notebook initial dépendait de Colab, de chemins absolus et de transformations silencieuses.","textChars":94,"textLines":1,"bbox":[808,582,390,66]}
+{"kind":"image","id":"im/2tkvyxg3","slide":2,"name":"","alt":"Rapprochement des sources ERP, liaison et Web","bbox":[44,252,710,392]}
+{"kind":"notes","id":"nt/skyuop","slide":2,"text":"[Sources]\n- docs/audit_initial.md\n- reports/tables/indicateurs_cles.json\n- reports/figures/01_rapprochement_sources.png"}
+{"kind":"slide","id":"sl/kx2g18","slide":3,"title":"P11 · BOTTLENECK · PARTIE 1 · 03","textShapes":17}
+{"kind":"textbox","id":"sh/983a14ru","slide":3,"text":"P11 · BOTTLENECK · PARTIE 1 · 03","textPreview":"P11 · BOTTLENECK · PARTIE 1 · 03","textChars":32,"textLines":1,"bbox":[42,36,500,24]}
+{"kind":"textbox","id":"sh/mlsb6983","slide":3,"text":"Le Trello rend la partie 1 vérifiable de bout en bout","textPreview":"Le Trello rend la partie 1 vérifiable de bout en bout","textChars":53,"textLines":1,"bbox":[42,82,1180,88]}
+{"kind":"textbox","id":"sh/n6lsfe9o","slide":3,"text":"Le tableau « P11 — Partie 1 » contient quatre listes et douze cartes E01 à E12.","textPreview":"Le tableau « P11 — Partie 1 » contient quatre listes et douze cartes E01 à E12.","textChars":79,"textLines":1,"bbox":[42,176,1180,56]}
+{"kind":"textbox","id":"sh/wbutcjql","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1178,672,62,22]}
+{"kind":"textbox","id":"sh/xc3a5orq","slide":3,"text":"Backlog","textPreview":"Backlog","textChars":7,"textLines":1,"bbox":[44,280,250,40]}
+{"kind":"shape","id":"sh/a9cba98f","slide":3,"bbox":[44,336,250,170]}
+{"kind":"textbox","id":"sh/vals3e90","slide":3,"text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[64,366,210,72]}
+{"kind":"textbox","id":"sh/cfa90fq1","slide":3,"text":"carte","textPreview":"carte","textChars":5,"textLines":1,"bbox":[64,446,210,34]}
+{"kind":"textbox","id":"sh/dgja9krm","slide":3,"text":"Todo","textPreview":"Todo","textChars":4,"textLines":1,"bbox":[350,280,250,40]}
+{"kind":"shape","id":"sh/d47et0ve","slide":3,"bbox":[350,336,250,170]}
+{"kind":"textbox","id":"sh/c3yxkvut","slide":3,"text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[370,366,210,72]}
+{"kind":"textbox","id":"sh/b2pwrqdo","slide":3,"text":"carte","textPreview":"carte","textChars":5,"textLines":1,"bbox":[370,446,210,34]}
+{"kind":"textbox","id":"sh/q1gfi5c3","slide":3,"text":"In progress","textPreview":"In progress","textChars":11,"textLines":1,"bbox":[656,280,250,40]}
+{"kind":"shape","id":"sh/l8ryxkvq","slide":3,"bbox":[656,336,250,170]}
+{"kind":"textbox","id":"sh/07ixofu5","slide":3,"text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[676,366,210,72]}
+{"kind":"textbox","id":"sh/z69gvadk","slide":3,"text":"carte","textPreview":"carte","textChars":5,"textLines":1,"bbox":[676,446,210,34]}
+{"kind":"textbox","id":"sh/y5gfm5cz","slide":3,"text":"Done","textPreview":"Done","textChars":4,"textLines":1,"bbox":[962,280,250,40]}
+{"kind":"shape","id":"sh/9wry1kvm","slide":3,"bbox":[962,336,250,170]}
+{"kind":"textbox","id":"sh/8vixsfu1","slide":3,"text":"12 / 12","textPreview":"12 / 12","textChars":7,"textLines":1,"bbox":[982,366,210,72]}
+{"kind":"textbox","id":"sh/8fqho32d","slide":3,"text":"cartes terminées","textPreview":"cartes terminées","textChars":16,"textLines":1,"bbox":[982,446,210,34]}
+{"kind":"textbox","id":"sh/t0zixojy","slide":3,"text":"Ouvrir le tableau Trello P11 — Partie 1","textPreview":"Ouvrir le tableau Trello P11 — Partie 1","textChars":39,"textLines":1,"bbox":[258,572,764,36]}
+{"kind":"notes","id":"nt/kx2g18","slide":3,"text":"[Sources]\n- https://trello.com/b/swp5d7fb/p11-partie-1\n- Trello connector snapshot — 25 août 2026"}
+{"kind":"slide","id":"sl/5vujy2","slide":4,"title":"P11 · BOTTLENECK · PARTIE 1 · 04","textShapes":18}
+{"kind":"textbox","id":"sh/vaxwb2hc","slide":4,"text":"P11 · BOTTLENECK · PARTIE 1 · 04","textPreview":"P11 · BOTTLENECK · PARTIE 1 · 04","textChars":32,"textLines":1,"bbox":[42,36,500,24]}
+{"kind":"textbox","id":"sh/wb6xk7yx","slide":4,"text":"E01 à E04 ont d’abord établi des faits contrôlables","textPreview":"E01 à E04 ont d’abord établi des faits contrôlables","textChars":51,"textLines":1,"bbox":[42,82,1180,88]}
+{"kind":"textbox","id":"sh/hwfedcz2","slide":4,"text":"Avant toute amélioration, la source a été préservée et la baseline reproduite.","textPreview":"Avant toute amélioration, la source a été préservée et la baseline reproduite.","textChars":78,"textLines":1,"bbox":[42,176,1180,56]}
+{"kind":"textbox","id":"sh/m5ovexgf","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1178,672,62,22]}
+{"kind":"textbox","id":"sh/76xw72h0","slide":4,"text":"E01","textPreview":"E01","textChars":3,"textLines":1,"bbox":[44,286,250,30]}
+{"kind":"textbox","id":"sh/876dgnyl","slide":4,"text":"Préserver","textPreview":"Préserver","textChars":9,"textLines":1,"bbox":[44,328,250,44]}
+{"kind":"textbox","id":"sh/98fe9sz6","slide":4,"text":"8 fichiers archivés\navec SHA-256","textPreview":"8 fichiers archivés | avec SHA-256","textChars":32,"textLines":2,"bbox":[44,392,250,86]}
+{"kind":"textbox","id":"sh/y14vadgj","slide":4,"text":"E02","textPreview":"E02","textChars":3,"textLines":1,"bbox":[344,286,250,30]}
+{"kind":"textbox","id":"sh/z2dw3ih4","slide":4,"text":"Exécuter","textPreview":"Exécuter","textChars":8,"textLines":1,"bbox":[344,328,250,44]}
+{"kind":"textbox","id":"sh/3qxc3ul0","slide":4,"text":"Échec strict en 5,02 s\nsur google.colab","textPreview":"Échec strict en 5,02 s | sur google.colab","textChars":39,"textLines":2,"bbox":[344,392,250,86]}
+{"kind":"textbox","id":"sh/2pobupkf","slide":4,"text":"E03","textPreview":"E03","textChars":3,"textLines":1,"bbox":[644,286,250,30]}
+{"kind":"textbox","id":"sh/psfu5436","slide":4,"text":"Diagnostiquer","textPreview":"Diagnostiquer","textChars":13,"textLines":1,"bbox":[644,328,250,44]}
+{"kind":"textbox","id":"sh/or6twz2l","slide":4,"text":"Chemins, dépendances\net cellules incohérentes","textPreview":"Chemins, dépendances | et cellules incohérentes","textChars":45,"textLines":2,"bbox":[644,392,250,86]}
+{"kind":"textbox","id":"sh/bexc7elc","slide":4,"text":"E04","textPreview":"E04","textChars":3,"textLines":1,"bbox":[944,286,250,30]}
+{"kind":"textbox","id":"sh/adoby9kr","slide":4,"text":"Auditer","textPreview":"Auditer","textChars":7,"textLines":1,"bbox":[944,328,250,44]}
+{"kind":"textbox","id":"sh/xgzu9o32","slide":4,"text":"Jointures, CA, marges,\nstock et conclusions","textPreview":"Jointures, CA, marges, | stock et conclusions","textChars":43,"textLines":2,"bbox":[944,392,250,86]}
+{"kind":"shape","id":"sh/cfqt0j2h","slide":4,"bbox":[44,534,1152,86]}
+{"kind":"textbox","id":"sh/ridsvals","slide":4,"text":"Conclusion de l’audit","textPreview":"Conclusion de l’audit","textChars":21,"textLines":1,"bbox":[70,556,256,30]}
+{"kind":"textbox","id":"sh/6h4bm547","slide":4,"text":"Le résultat pouvait paraître exploitable, mais il n’était ni reproductible ni suffisamment traçable.","textPreview":"Le résultat pouvait paraître exploitable, mais il n’était ni reproductible ni suffisamment traçable.","textChars":100,"textLines":1,"bbox":[342,552,820,40]}
+{"kind":"notes","id":"nt/5vujy2","slide":4,"text":"[Sources]\n- archive/original/MANIFEST.md\n- reports/tables/baseline_execution.json\n- docs/audit_initial.md\n- Trello cards E01–E04"}
+{"kind":"slide","id":"sl/8hok7p","slide":5,"title":"P11 · BOTTLENECK · PARTIE 1 · 05","textShapes":16}
+{"kind":"textbox","id":"sh/dgj61szq","slide":5,"text":"P11 · BOTTLENECK · PARTIE 1 · 05","textPreview":"P11 · BOTTLENECK · PARTIE 1 · 05","textChars":32,"textLines":1,"bbox":[42,36,500,24]}
+{"kind":"textbox","id":"sh/qdsnqdgz","slide":5,"text":"E05 rend le projet local, testable et transmissible","textPreview":"E05 rend le projet local, testable et transmissible","textChars":51,"textLines":1,"bbox":[42,82,1180,88]}
+{"kind":"textbox","id":"sh/be1ozihk","slide":5,"text":"La logique métier sort du notebook et devient un pipeline partagé par tous les livrables.","textPreview":"La logique métier sort du notebook et devient un pipeline partagé par tous les livrables.","textChars":89,"textLines":1,"bbox":[42,176,1180,56]}
+{"kind":"textbox","id":"sh/0ju5w7yh","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1178,672,62,22]}
+{"kind":"shape","id":"sh/lk365czm","slide":5,"bbox":[92,368,600,0]}
+{"kind":"shape","id":"sh/yhcnuxgb","slide":5,"bbox":[79,355,26,26]}
+{"kind":"textbox","id":"sh/zilo32hw","slide":5,"text":"Sources","textPreview":"Sources","textChars":7,"textLines":1,"bbox":[30,402,124,34]}
+{"kind":"textbox","id":"sh/gnq5k3yx","slide":5,"text":"ERP · Web\nliaison","textPreview":"ERP · Web | liaison","textChars":17,"textLines":2,"bbox":[18,442,148,62]}
+{"kind":"shape","id":"sh/1oz6t8zi","slide":5,"bbox":[229,355,26,26]}
+{"kind":"textbox","id":"sh/h8b61kb6","slide":5,"text":"Pipeline","textPreview":"Pipeline","textChars":8,"textLines":1,"bbox":[180,402,124,34]}
+{"kind":"textbox","id":"sh/w72psfal","slide":5,"text":"contrats\net jointures","textPreview":"contrats | et jointures","textChars":21,"textLines":2,"bbox":[168,442,148,62]}
+{"kind":"shape","id":"sh/v6tozat0","slide":5,"bbox":[379,355,26,26]}
+{"kind":"textbox","id":"sh/u5k7q5sf","slide":5,"text":"Données","textPreview":"Données","textChars":7,"textLines":1,"bbox":[330,402,124,34]}
+{"kind":"textbox","id":"sh/5cv65kb2","slide":5,"text":"catalogues\ncontrôlés","textPreview":"catalogues | contrôlés","textChars":20,"textLines":2,"bbox":[318,442,148,62]}
+{"kind":"shape","id":"sh/4b2pwfah","slide":5,"bbox":[529,355,26,26]}
+{"kind":"textbox","id":"sh/jato3atw","slide":5,"text":"Notebook","textPreview":"Notebook","textChars":8,"textLines":1,"bbox":[480,402,124,34]}
+{"kind":"textbox","id":"sh/i9k7u5sb","slide":5,"text":"analyse\nexécutée","textPreview":"analyse | exécutée","textChars":16,"textLines":2,"bbox":[468,442,148,62]}
+{"kind":"shape","id":"sh/t0vqt4by","slide":5,"bbox":[679,355,26,26]}
+{"kind":"textbox","id":"sh/szmp0zat","slide":5,"text":"Rapports","textPreview":"Rapports","textChars":8,"textLines":1,"bbox":[630,402,124,34]}
+{"kind":"textbox","id":"sh/cju9w3ip","slide":5,"text":"preuves\net décisions","textPreview":"preuves | et décisions","textChars":20,"textLines":2,"bbox":[618,442,148,62]}
+{"kind":"textbox","id":"sh/d43q58ja","slide":5,"text":"Package sous src/bottleneck_analysis/\nScripts d’analyse et de génération\nNotebook portfolio généré\nTests unitaires et d’intégration\nExports CSV, JSON, PNG et SVG","textPreview":"Package sous src/bottleneck_analysis/ | Scripts d’analyse et de génération | Notebook portfolio généré | Tests unitaires et d’intégration...","textChars":161,"textLines":5,"bbox":[790,286,398,278]}
+{"kind":"textbox","id":"sh/qhcrut0z","slide":5,"text":"Une seule logique métier alimente le notebook, les rapports et la présentation.","textPreview":"Une seule logique métier alimente le notebook, les rapports et la présentation.","textChars":79,"textLines":1,"bbox":[790,576,398,58]}
+{"kind":"notes","id":"nt/8hok7p","slide":5,"text":"[Sources]\n- src/bottleneck_analysis/\n- scripts/\n- notebooks/BottleNeck_analyse_portfolio.ipynb\n- tests/\n- Trello card E05"}
+{"kind":"slide","id":"sl/vequd9","slide":6,"title":"165","textShapes":7}
+{"kind":"shape","id":"sh/tw769kfm","slide":6,"bbox":[790,260,392,206]}
+{"kind":"textbox","id":"sh/8vy5gfy1","slide":6,"text":"165","textPreview":"165","textChars":3,"textLines":1,"bbox":[816,290,340,84]}
+{"kind":"textbox","id":"sh/jqp43qhk","slide":6,"text":"constats qualité tracés","textPreview":"constats qualité tracés","textChars":23,"textLines":1,"bbox":[816,386,340,56]}
+{"kind":"textbox","id":"sh/ypwnalgz","slide":6,"text":"7 erreurs certaines · 125 anomalies probables · 33 valeurs inhabituelles mais plausibles","textPreview":"7 erreurs certaines · 125 anomalies probables · 33 valeurs inhabituelles mais plausibles","textChars":88,"textLines":1,"bbox":[810,494,352,96]}
+{"kind":"textbox","id":"sh/ls7m50fa","slide":6,"text":"P11 · BOTTLENECK · PARTIE 1 · 06","textPreview":"P11 · BOTTLENECK · PARTIE 1 · 06","textChars":32,"textLines":1,"bbox":[42,36,500,24]}
+{"kind":"textbox","id":"sh/kry5cvy5","slide":6,"text":"E06 rend les défauts visibles","textPreview":"E06 rend les défauts visibles","textChars":29,"textLines":1,"bbox":[42,82,1180,88]}
+{"kind":"textbox","id":"sh/b254zqh8","slide":6,"text":"Une donnée douteuse reste visible et n’est exclue que de l’indicateur invalide.","textPreview":"Une donnée douteuse reste visible et n’est exclue que de l’indicateur invalide.","textChars":79,"textLines":1,"bbox":[42,176,1180,56]}
+{"kind":"textbox","id":"sh/a1wn6lgn","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1178,672,62,22]}
+{"kind":"image","id":"im/b6xkvalk","slide":6,"name":"","alt":"Typologie des constats de qualité","bbox":[44,252,682,378]}
+{"kind":"notes","id":"nt/vequd9","slide":6,"text":"[Sources]\n- reports/tables/registre_qualite.csv\n- reports/figures/08_typologie_alertes.png\n- docs/registre_ameliorations.md\n- Trello card E06"}
+{"kind":"slide","id":"sl/fy1fst","slide":7,"title":"P11 · BOTTLENECK · PARTIE 1 · 07","textShapes":17}
+{"kind":"textbox","id":"sh/1g7y10f2","slide":7,"text":"P11 · BOTTLENECK · PARTIE 1 · 07","textPreview":"P11 · BOTTLENECK · PARTIE 1 · 07","textChars":32,"textLines":1,"bbox":[42,36,500,24]}
+{"kind":"textbox","id":"sh/edwf6lgr","slide":7,"text":"E07–E08 remplacent l’arbitraire par l’expérience","textPreview":"E07–E08 remplacent l’arbitraire par l’expérience","textChars":48,"textLines":1,"bbox":[42,82,1180,88]}
+{"kind":"textbox","id":"sh/fepgzqxw","slide":7,"text":"Les critères sont définis avant l’exécution, puis toutes les options sont comparées sur les mêmes données.","textPreview":"Les critères sont définis avant l’exécution, puis toutes les options sont comparées sur les mêmes données.","textChars":106,"textLines":1,"bbox":[42,176,1180,56]}
+{"kind":"textbox","id":"sh/o3yhcvyt","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1178,672,62,22]}
+{"kind":"textbox","id":"sh/p47y50fe","slide":7,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[44,286,250,30]}
+{"kind":"textbox","id":"sh/2hgfa5gn","slide":7,"text":"Question","textPreview":"Question","textChars":8,"textLines":1,"bbox":[44,334,250,44]}
+{"kind":"textbox","id":"sh/32pg3ax8","slide":7,"text":"Quel choix influence\nle résultat ?","textPreview":"Quel choix influence | le résultat ?","textChars":34,"textLines":2,"bbox":[44,402,250,80]}
+{"kind":"textbox","id":"sh/47ex0by9","slide":7,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[344,286,250,30]}
+{"kind":"textbox","id":"sh/58nytgfu","slide":7,"text":"Critères","textPreview":"Critères","textChars":8,"textLines":1,"bbox":[344,334,250,44]}
+{"kind":"textbox","id":"sh/1436dgfm","slide":7,"text":"Sens métier, fiabilité,\ncomplexité, stabilité","textPreview":"Sens métier, fiabilité, | complexité, stabilité","textChars":45,"textLines":2,"bbox":[344,402,250,80]}
+{"kind":"textbox","id":"sh/03up4ve1","slide":7,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[644,286,250,30]}
+{"kind":"textbox","id":"sh/zilobqxw","slide":7,"text":"Exécution","textPreview":"Exécution","textChars":9,"textLines":1,"bbox":[644,334,250,44]}
+{"kind":"textbox","id":"sh/ehc72lwb","slide":7,"text":"Même jeu de données,\nmêmes métriques","textPreview":"Même jeu de données, | mêmes métriques","textChars":36,"textLines":2,"bbox":[644,402,250,80]}
+{"kind":"textbox","id":"sh/98nqh0vy","slide":7,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[944,286,250,30]}
+{"kind":"textbox","id":"sh/o7up8ved","slide":7,"text":"Décision","textPreview":"Décision","textChars":8,"textLines":1,"bbox":[944,334,250,44]}
+{"kind":"textbox","id":"sh/n6lofqxs","slide":7,"text":"Option retenue, preuve\net limites publiées","textPreview":"Option retenue, preuve | et limites publiées","textChars":42,"textLines":2,"bbox":[944,402,250,80]}
+{"kind":"shape","id":"sh/m5c76lw7","slide":7,"bbox":[44,548,1152,74]}
+{"kind":"textbox","id":"sh/xcnql0vu","slide":7,"text":"Trois expériences persistantes : sélection Web · méthodes d’outliers · pandas contre Pandera","textPreview":"Trois expériences persistantes : sélection Web · méthodes d’outliers · pandas contre Pandera","textChars":92,"textLines":1,"bbox":[72,569,1098,34]}
+{"kind":"notes","id":"nt/fy1fst","slide":7,"text":"[Sources]\n- docs/registre_experiences_ia.md\n- src/bottleneck_analysis/experiments.py\n- src/bottleneck_analysis/outliers.py\n- experiments/compare_validators.py\n- Trello cards E07–E08"}
+{"kind":"slide","id":"sl/2izhy7","slide":8,"title":"Décision","textShapes":8}
+{"kind":"textbox","id":"sh/wvytsvmh","slide":8,"text":"Décision","textPreview":"Décision","textChars":8,"textLines":1,"bbox":[836,286,330,36]}
+{"kind":"textbox","id":"sh/hw7ul0n2","slide":8,"text":"Conserver post_type = product","textPreview":"Conserver post_type = product","textChars":29,"textLines":1,"bbox":[836,338,330,68]}
+{"kind":"textbox","id":"sh/ix0bu54n","slide":8,"text":"Pourquoi ?","textPreview":"Pourquoi ?","textChars":10,"textLines":1,"bbox":[836,438,330,34]}
+{"kind":"textbox","id":"sh/jy9cna5s","slide":8,"text":"Une ligne par SKU\nInvariant à l’ordre\nPas de pièce jointe comptée comme vente","textPreview":"Une ligne par SKU | Invariant à l’ordre | Pas de pièce jointe comptée comme vente","textChars":77,"textLines":3,"bbox":[836,482,330,124]}
+{"kind":"textbox","id":"sh/4zitwfmd","slide":8,"text":"P11 · BOTTLENECK · PARTIE 1 · 08","textPreview":"P11 · BOTTLENECK · PARTIE 1 · 08","textChars":32,"textLines":1,"bbox":[42,36,500,24]}
+{"kind":"textbox","id":"sh/50rupkny","slide":8,"text":"Le filtre Web évite 107 % de double comptage","textPreview":"Le filtre Web évite 107 % de double comptage","textChars":44,"textLines":1,"bbox":[42,82,1180,88]}
+{"kind":"textbox","id":"sh/610byp4j","slide":8,"text":"Le type product est retenu ; toutes les lignes gonflent le CA de 107,01 %.","textPreview":"Le type product est retenu ; toutes les lignes gonflent le CA de 107,01 %.","textChars":74,"textLines":1,"bbox":[42,176,1180,56]}
+{"kind":"textbox","id":"sh/r29cru54","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1178,672,62,22]}
+{"kind":"chart","id":"ch/b2d4v2t8","slide":8,"name":"","chartType":"bar","bbox":[48,264,730,342]}
+{"kind":"notes","id":"nt/2izhy7","slide":8,"text":"[Sources]\n- reports/tables/comparaison_selection_lignes_web.csv\n- docs/registre_ameliorations.md — A-007\n- Trello card E10"}
+{"kind":"slide","id":"sl/si2uj5","slide":9,"title":"P11 · BOTTLENECK · PARTIE 1 · 09","textShapes":8}
+{"kind":"textbox","id":"sh/6doripk7","slide":9,"text":"P11 · BOTTLENECK · PARTIE 1 · 09","textPreview":"P11 · BOTTLENECK · PARTIE 1 · 09","textChars":32,"textLines":1,"bbox":[42,36,500,24]}
+{"kind":"textbox","id":"sh/tgzad43y","slide":9,"text":"La MAD brute est le meilleur signal testé","textPreview":"La MAD brute est le meilleur signal testé","textChars":41,"textLines":1,"bbox":[42,82,1180,88]}
+{"kind":"textbox","id":"sh/8f69kz2d","slide":9,"text":"Elle atteint 100 % de rappel injecté avec une stabilité Jaccard de 0,9091.","textPreview":"Elle atteint 100 % de rappel injecté avec une stabilité Jaccard de 0,9091.","textChars":74,"textLines":1,"bbox":[42,176,1180,56]}
+{"kind":"textbox","id":"sh/jqxs7ulw","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1178,672,62,22]}
+{"kind":"shape","id":"sh/lcfa9432","slide":9,"bbox":[852,260,330,206]}
+{"kind":"textbox","id":"sh/kb69gzmh","slide":9,"text":"33","textPreview":"33","textChars":2,"textLines":1,"bbox":[878,290,278,84]}
+{"kind":"textbox","id":"sh/36hsjel0","slide":9,"text":"alertes · 4,62 %","textPreview":"alertes · 4,62 %","textChars":16,"textLines":1,"bbox":[878,386,278,56]}
+{"kind":"textbox","id":"sh/2l8rqtkf","slide":9,"text":"100 %","textPreview":"100 %","textChars":5,"textLines":1,"bbox":[874,500,286,54]}
+{"kind":"textbox","id":"sh/ozalsnm5","slide":9,"text":"rappel sur 20 cas injectés","textPreview":"rappel sur 20 cas injectés","textChars":26,"textLines":1,"bbox":[874,564,286,42]}
+{"kind":"image","id":"im/v2dc3ixc","slide":9,"name":"","alt":"Prix triés et signaux MAD robustes","bbox":[44,250,760,382]}
+{"kind":"notes","id":"nt/si2uj5","slide":9,"text":"[Sources]\n- reports/tables/comparaison_methodes_outliers.csv\n- reports/figures/04_prix_inhabituels.png\n- docs/registre_ameliorations.md — A-010"}
+{"kind":"slide","id":"sl/0lr0f5","slide":10,"title":"Choix courant","textShapes":7}
+{"kind":"textbox","id":"sh/ofadgvyp","slide":10,"text":"Choix courant","textPreview":"Choix courant","textChars":13,"textLines":1,"bbox":[820,286,360,38]}
+{"kind":"textbox","id":"sh/pgjep0zu","slide":10,"text":"pandas natif au runtime","textPreview":"pandas natif au runtime","textChars":23,"textLines":1,"bbox":[820,344,360,66]}
+{"kind":"textbox","id":"sh/ahsvi5gf","slide":10,"text":"Pandera reste une option de développement. Les temps de benchmark sont indicatifs et dépendants de la machine.","textPreview":"Pandera reste une option de développement. Les temps de benchmark sont indicatifs et dépendants de la machine.","textChars":110,"textLines":1,"bbox":[820,450,360,116]}
+{"kind":"textbox","id":"sh/bi1wrah0","slide":10,"text":"P11 · BOTTLENECK · PARTIE 1 · 10","textPreview":"P11 · BOTTLENECK · PARTIE 1 · 10","textChars":32,"textLines":1,"bbox":[42,36,500,24]}
+{"kind":"textbox","id":"sh/c3adkfyl","slide":10,"text":"pandas est le meilleur compromis pour ce pipeline","textPreview":"pandas est le meilleur compromis pour ce pipeline","textChars":49,"textLines":1,"bbox":[42,82,1180,88]}
+{"kind":"textbox","id":"sh/x4jetkz6","slide":10,"text":"Les deux validateurs détectent 9/9 défauts ; pandas localise 9/9 contre 7/9 pour Pandera.","textPreview":"Les deux validateurs détectent 9/9 défauts ; pandas localise 9/9 contre 7/9 pour Pandera.","textChars":89,"textLines":1,"bbox":[42,176,1180,56]}
+{"kind":"textbox","id":"sh/6lov61gb","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1178,672,62,22]}
+{"kind":"chart","id":"ch/jqt0fed4","slide":10,"name":"","chartType":"bar","bbox":[54,266,690,338]}
+{"kind":"notes","id":"nt/0lr0f5","slide":10,"text":"[Sources]\n- reports/tables/comparaison_validateurs.csv\n- experiments/compare_validators.py\n- docs/registre_ameliorations.md — A-011"}
+{"kind":"slide","id":"sl/6wsshl","slide":11,"title":"P11 · BOTTLENECK · PARTIE 1 · 11","textShapes":16}
+{"kind":"textbox","id":"sh/987e98zi","slide":11,"text":"P11 · BOTTLENECK · PARTIE 1 · 11","textPreview":"P11 · BOTTLENECK · PARTIE 1 · 11","textChars":32,"textLines":1,"bbox":[42,36,500,24]}
+{"kind":"textbox","id":"sh/m5wvyt0r","slide":11,"text":"E09 à E12 verrouillent la qualité jusqu’à la livraison","textPreview":"E09 à E12 verrouillent la qualité jusqu’à la livraison","textChars":54,"textLines":1,"bbox":[42,82,1180,88]}
+{"kind":"textbox","id":"sh/765w7yhc","slide":11,"text":"Une amélioration n’est « réalisée » que si elle est intégrée, exécutée, vérifiée et documentée.","textPreview":"Une amélioration n’est « réalisée » que si elle est intégrée, exécutée, vérifiée et documentée.","textChars":95,"textLines":1,"bbox":[42,176,1180,56]}
+{"kind":"textbox","id":"sh/kjedw3il","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1178,672,62,22]}
+{"kind":"textbox","id":"sh/l4ne5oz6","slide":11,"text":"E09","textPreview":"E09","textChars":3,"textLines":1,"bbox":[54,278,96,32]}
+{"kind":"textbox","id":"sh/yhwvut0v","slide":11,"text":"Vérifier","textPreview":"Vérifier","textChars":8,"textLines":1,"bbox":[176,270,284,44]}
+{"kind":"textbox","id":"sh/zi5w3yhg","slide":11,"text":"Test ou preuve persistante","textPreview":"Test ou preuve persistante","textChars":26,"textLines":1,"bbox":[490,273,690,48]}
+{"kind":"textbox","id":"sh/cfedsjip","slide":11,"text":"E10","textPreview":"E10","textChars":3,"textLines":1,"bbox":[54,364,96,32]}
+{"kind":"textbox","id":"sh/dgne1oza","slide":11,"text":"Revenir en arrière","textPreview":"Revenir en arrière","textChars":18,"textLines":1,"bbox":[176,356,284,44]}
+{"kind":"textbox","id":"sh/l4na1kva","slide":11,"text":"Corriger un choix invalidé par les mesures","textPreview":"Corriger un choix invalidé par les mesures","textChars":42,"textLines":1,"bbox":[490,359,690,48]}
+{"kind":"textbox","id":"sh/k3e9sfup","slide":11,"text":"E11","textPreview":"E11","textChars":3,"textLines":1,"bbox":[54,450,96,32]}
+{"kind":"textbox","id":"sh/z25szud4","slide":11,"text":"Rester sobre","textPreview":"Rester sobre","textChars":12,"textLines":1,"bbox":[176,442,284,44]}
+{"kind":"textbox","id":"sh/y1crqpcj","slide":11,"text":"Écarter ML et dépendances sans gain démontré","textPreview":"Écarter ML et dépendances sans gain démontré","textChars":44,"textLines":1,"bbox":[490,445,690,48]}
+{"kind":"textbox","id":"sh/x03axkvy","slide":11,"text":"E12","textPreview":"E12","textChars":3,"textLines":1,"bbox":[54,536,96,32]}
+{"kind":"textbox","id":"sh/czu9ofet","slide":11,"text":"Tracer","textPreview":"Tracer","textChars":6,"textLines":1,"bbox":[176,528,284,44]}
+{"kind":"textbox","id":"sh/bylsvad8","slide":11,"text":"Consigner problème, décision, résultat et limite","textPreview":"Consigner problème, décision, résultat et limite","textChars":48,"textLines":1,"bbox":[490,531,690,48]}
+{"kind":"notes","id":"nt/6wsshl","slide":11,"text":"[Sources]\n- docs/registre_ameliorations.md\n- tests/\n- reports/tables/final_validation.json\n- Trello cards E09–E12"}
+{"kind":"slide","id":"sl/yg7jxx","slide":12,"title":"714","textShapes":11}
+{"kind":"shape","id":"sh/54bu1ovi","slide":12,"bbox":[44,276,354,206]}
+{"kind":"textbox","id":"sh/ih0b69w7","slide":12,"text":"714","textPreview":"714","textChars":3,"textLines":1,"bbox":[70,306,302,84]}
+{"kind":"textbox","id":"sh/ji9czedc","slide":12,"text":"produits Web rapprochés","textPreview":"produits Web rapprochés","textChars":23,"textLines":1,"bbox":[70,402,302,56]}
+{"kind":"shape","id":"sh/wfit4je1","slide":12,"bbox":[432,276,354,206]}
+{"kind":"textbox","id":"sh/xgruxovm","slide":12,"text":"143 680 €","textPreview":"143 680 €","textChars":9,"textLines":1,"bbox":[458,306,302,84]}
+{"kind":"textbox","id":"sh/ad0b29wv","slide":12,"text":"CA TTC d’octobre","textPreview":"CA TTC d’octobre","textChars":16,"textLines":1,"bbox":[458,402,302,56]}
+{"kind":"shape","id":"sh/ve9cvedg","slide":12,"bbox":[820,276,354,206]}
+{"kind":"textbox","id":"sh/gbmdg3u5","slide":12,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[846,306,302,84]}
+{"kind":"textbox","id":"sh/hcvu98vq","slide":12,"text":"tests pytest réussis","textPreview":"tests pytest réussis","textChars":20,"textLines":1,"bbox":[846,402,302,56]}
+{"kind":"textbox","id":"sh/1cb6lw76","slide":12,"text":"5/5 commandes · 7/7 contrôles · notebook 24 cellules sans erreur · 11 figures en PNG et SVG","textPreview":"5/5 commandes · 7/7 contrôles · notebook 24 cellules sans erreur · 11 figures en PNG et SVG","textChars":91,"textLines":1,"bbox":[70,534,1140,48]}
+{"kind":"textbox","id":"sh/gb2psrql","slide":12,"text":"Limites : octobre uniquement · stock au 31 octobre · année non certifiée · hypothèses TVA et unités financières à confirmer","textPreview":"Limites : octobre uniquement · stock au 31 octobre · année non certifiée · hypothèses TVA et unités financières à confirmer","textChars":123,"textLines":1,"bbox":[86,606,1110,48]}
+{"kind":"textbox","id":"sh/fatojmp0","slide":12,"text":"La partie 1 est livrée, testée et reproductible","textPreview":"La partie 1 est livrée, testée et reproductible","textChars":47,"textLines":1,"bbox":[42,82,1180,88]}
+{"kind":"textbox","id":"sh/e907q18v","slide":12,"text":"Un mois d’observation ne devient pas une prévision annuelle.","textPreview":"Un mois d’observation ne devient pas une prévision annuelle.","textChars":60,"textLines":1,"bbox":[42,176,1180,56]}
+{"kind":"textbox","id":"sh/t8r6hw7a","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1178,672,62,22]}
+{"kind":"notes","id":"nt/yg7jxx","slide":12,"text":"[Sources]\n- reports/tables/final_validation.json\n- reports/tables/indicateurs_cles.json\n- docs/limites_biais.md\n- notebooks/BottleNeck_analyse_portfolio.ipynb"}

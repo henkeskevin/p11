@@ -76,6 +76,7 @@ Le namespace Python est `bottleneck_analysis` : le nom `bottleneck` a été éca
 
 - [Audit de l'état initial](docs/audit_initial.md)
 - [Cahier des charges](docs/cahier_des_charges.md)
+- [Note de cadrage P11 — Partie 1](docs/Note_de_cadrage_P11_Partie_1.docx)
 - [Matrice exigences → preuves](docs/matrice_exigences_preuves.md)
 - [Backlog, planning et risques](docs/backlog_planning_risques.md)
 - [Registre continu des améliorations](docs/registre_ameliorations.md)
@@ -84,6 +85,7 @@ Le namespace Python est `bottleneck_analysis` : le nom `bottleneck` a été éca
 - [Synthèse CODIR](docs/synthese_codir.md)
 - [Synthèse recruteur](docs/synthese_recruteur.md)
 - [Limites et biais](docs/limites_biais.md)
+- [PowerPoint d’explication — Partie 1, 12 slides](reports/P11_Partie_1_Explication_12_slides.pptx)
 
 ## Décisions méthodologiques clés
 
