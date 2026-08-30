@@ -9,7 +9,8 @@ Ouvrir `index.html` dans un navigateur ou servir le dossier avec un serveur HTTP
 ## Pages
 
 - `index.html` : accueil et sélection des projets
-- `projets.html` : cinq études de cas détaillées
+- `projets.html` : vue d’ensemble des cinq projets
+- `projet-bottleneck.html`, `projet-power-bi.html`, `projet-immobilier.html`, `projet-uoi-games.html`, `projet-retail-sql.html` : études de cas approfondies et bilingues
 - `a-propos.html` : profil et parcours
 - `cv.html` : CV PDF intégré et transcription HTML accessible
 

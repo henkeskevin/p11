@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f4f1e8">
+    <meta name="description" content="Étude de cas BottleNeck : audit de trois sources, qualité des données, pipeline Python reproductible et recommandations métier.">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="BottleNeck — Étude de cas détaillée">
+    <meta property="og:description" content="Du rapprochement ERP/Web à une analyse fiable des ventes, marges et stocks.">
+    <title>BottleNeck — Étude de cas détaillée</title>
+    <link rel="stylesheet" href="assets/css/styles.css?v=20260830-1">
+    <script src="assets/js/app.js?v=20260830-1" defer></script>
+  </head>
+  <body data-language="fr" data-theme="light" data-contrast="normal" data-text="normal">
+    <span class="sr-only" data-page-title data-lang="fr">BottleNeck — Étude de cas détaillée</span>
+    <span class="sr-only" data-page-title data-lang="en">BottleNeck — Detailed case study</span>
+    <span class="sr-only" data-page-description data-lang="fr">Étude de cas BottleNeck : audit de trois sources, qualité des données, pipeline Python reproductible et recommandations métier.</span>
+    <span class="sr-only" data-page-description data-lang="en">BottleNeck case study: three-source audit, data quality, a reproducible Python pipeline and business recommendations.</span>
+
+    <a class="skip-link" href="#contenu"><span data-lang="fr">Aller au contenu</span><span data-lang="en">Skip to content</span></a>
+
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="index.html" aria-label="Kevin Henkes — Accueil" data-aria-fr="Kevin Henkes — Accueil" data-aria-en="Kevin Henkes — Home">
+          <span class="brand-mark" aria-hidden="true">KH</span><span class="brand-text">Kevin Henkes</span>
+        </a>
+        <button class="menu-button" type="button" data-menu-toggle aria-expanded="false" aria-controls="navigation-principale"><span data-lang="fr">Menu</span><span data-lang="en">Menu</span></button>
+        <nav class="main-nav" id="navigation-principale" data-main-nav aria-label="Navigation principale" data-aria-fr="Navigation principale" data-aria-en="Main navigation">
+          <ul>
+            <li><a href="index.html"><span data-lang="fr">Accueil</span><span data-lang="en">Home</span></a></li>
+            <li><a href="projets.html" aria-current="page"><span data-lang="fr">Projets</span><span data-lang="en">Projects</span></a></li>
+            <li><a href="a-propos.html"><span data-lang="fr">À propos</span><span data-lang="en">About</span></a></li>
+            <li><a href="cv.html"><span data-lang="fr">CV</span><span data-lang="en">Resume</span></a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <button class="control-button" type="button" data-language-toggle><span aria-hidden="true">文</span><span data-language-label>EN</span></button>
+          <button class="control-button" type="button" data-access-toggle aria-expanded="false" aria-controls="reglages-accessibilite"><span aria-hidden="true">Aa</span><span class="control-label" data-lang="fr">Affichage</span><span class="control-label" data-lang="en">Display</span></button>
+        </div>
+      </div>
+    </header>
+
+    <aside class="access-panel" id="reglages-accessibilite" data-access-panel hidden aria-labelledby="titre-accessibilite">
+      <h2 id="titre-accessibilite"><span data-lang="fr">Confort visuel</span><span data-lang="en">Visual comfort</span></h2>
+      <p><span data-lang="fr">Ces réglages sont mémorisés uniquement dans votre navigateur.</span><span data-lang="en">These settings are stored only in your browser.</span></p>
+      <div class="access-grid">
+        <button class="control-button" type="button" data-theme-toggle aria-pressed="false"><span data-lang="fr">Clair / sombre</span><span data-lang="en">Light / dark</span></button>
+        <button class="control-button" type="button" data-contrast-toggle aria-pressed="false"><span data-lang="fr">Contraste +</span><span data-lang="en">Contrast +</span></button>
+        <button class="control-button" type="button" data-text-toggle aria-pressed="false"><span data-lang="fr">Texte agrandi</span><span data-lang="en">Larger text</span></button>
+        <button class="control-button" type="button" data-language-toggle><span data-lang="fr">English</span><span data-lang="en">Français</span></button>
+      </div>
+    </aside>
+
+    <main id="contenu">
+      <header class="detail-hero">
+        <div class="container">
+          <p class="breadcrumb"><a href="projets.html"><span data-lang="fr">Tous les projets</span><span data-lang="en">All projects</span></a> / BottleNeck</p>
+          <div class="detail-hero-grid">
+            <div>
+              <p class="detail-number"><span data-lang="fr">Projet 01 · Étude de cas complète</span><span data-lang="en">Project 01 · Full case study</span></p>
+              <h1><span data-lang="fr">Trois sources. Une vérité métier défendable.</span><span data-lang="en">Three sources. One defensible business truth.</span></h1>
+              <p class="detail-lead"><span data-lang="fr">J’ai transformé des exports ERP, Web et de liaison imparfaits en une analyse reproductible des ventes, des marges et du stock — sans masquer les anomalies ni fabriquer de correspondances.</span><span data-lang="en">I turned imperfect ERP, Web and mapping exports into a reproducible sales, margin and inventory analysis—without hiding anomalies or inventing matches.</span></p>
+              <ul class="tag-list" aria-label="Technologies"><li>Python</li><li>pandas</li><li>pytest</li><li>Jupyter</li><li>Data quality</li></ul>
+            </div>
+            <dl class="detail-facts">
+              <div><dt><span data-lang="fr">Rôle</span><span data-lang="en">Role</span></dt><dd><span data-lang="fr">Data analyst, de bout en bout</span><span data-lang="en">End-to-end data analyst</span></dd></div>
+              <div><dt><span data-lang="fr">Périmètre</span><span data-lang="en">Scope</span></dt><dd><span data-lang="fr">Ventes d’octobre</span><span data-lang="en">October sales</span></dd></div>
+              <div><dt><span data-lang="fr">Sources</span><span data-lang="en">Sources</span></dt><dd>ERP · liaison · Web</dd></div>
+              <div><dt><span data-lang="fr">Livrables</span><span data-lang="en">Deliverables</span></dt><dd><span data-lang="fr">Pipeline, notebook, CODIR</span><span data-lang="en">Pipeline, notebook, exec deck</span></dd></div>
+            </dl>
+          </div>
+        </div>
+      </header>
+
+      <div class="section">
+        <div class="container detail-layout">
+          <div class="detail-content">
+            <section class="detail-section" id="contexte">
+              <p class="eyebrow"><span data-lang="fr">01 · Contexte</span><span data-lang="en">01 · Context</span></p>
+              <h2><span data-lang="fr">Passer de fichiers séparés à des décisions produit.</span><span data-lang="en">Move from separate files to product decisions.</span></h2>
+              <p><span data-lang="fr">La direction voulait savoir quelles références généraient du chiffre d’affaires et de la marge, lesquelles immobilisaient du stock et où concentrer une revue métier. Les informations utiles étaient réparties entre un ERP, une table de liaison et un export Web mêlant produits, pièces jointes et lignes structurelles.</span><span data-lang="en">Management needed to know which products generated revenue and margin, which tied up inventory and where to focus a business review. The useful information was split across an ERP, a mapping table and a Web export mixing products, attachments and structural rows.</span></p>
+              <div class="metric-band" aria-label="Chiffres clés" data-aria-fr="Chiffres clés" data-aria-en="Key figures">
+                <div><strong>825</strong><span><span data-lang="fr">références ERP</span><span data-lang="en">ERP records</span></span></div>
+                <div><strong>714</strong><span><span data-lang="fr">produits rapprochés</span><span data-lang="en">matched products</span></span></div>
+                <div><strong>5 751</strong><span><span data-lang="fr">unités en octobre</span><span data-lang="en">October units</span></span></div>
+                <div><strong>3</strong><span><span data-lang="fr">sources auditées</span><span data-lang="en">audited sources</span></span></div>
+              </div>
+              <div class="insight-grid">
+                <article class="insight-card"><strong><span data-lang="fr">Question métier</span><span data-lang="en">Business question</span></strong><p><span data-lang="fr">Quels produits vendre, surveiller, réapprovisionner ou faire contrôler ?</span><span data-lang="en">Which products should be sold, monitored, replenished or reviewed?</span></p></article>
+                <article class="insight-card"><strong><span data-lang="fr">Responsabilité</span><span data-lang="en">Ownership</span></strong><p><span data-lang="fr">Cadrage, audit, préparation, analyse, visualisation, validation et restitution.</span><span data-lang="en">Scoping, audit, preparation, analysis, visualization, validation and presentation.</span></p></article>
+              </div>
+            </section>
+
+            <section class="detail-section" id="defi">
+              <p class="eyebrow"><span data-lang="fr">02 · Défi</span><span data-lang="en">02 · Challenge</span></p>
+              <h2><span data-lang="fr">Le principal risque n’était pas le calcul, mais le double comptage.</span><span data-lang="en">The main risk was not the calculation. It was double counting.</span></h2>
+              <p><span data-lang="fr">Une même référence pouvait apparaître sous plusieurs formes dans l’export Web. Additionner toutes les lignes aurait gonflé le chiffre d’affaires de 107,01 %. Garder arbitrairement la première ou la dernière ligne produisait un résultat dépendant de l’ordre du fichier.</span><span data-lang="en">A single product could appear in several forms in the Web export. Summing every row would have overstated revenue by 107.01%. Arbitrarily keeping the first or last row produced a result dependent on file order.</span></p>
+              <ul>
+                <li><span data-lang="fr">91 identifiants Web étaient absents de la table de liaison.</span><span data-lang="en">91 Web identifiers were missing from the mapping table.</span></li>
+                <li><span data-lang="fr">20 liens renseignés ne retrouvaient aucun produit Web.</span><span data-lang="en">20 populated links did not match any Web product.</span></li>
+                <li><span data-lang="fr">Les SKU nuls ne pouvaient être ni appariés ni remplacés par une clé inventée.</span><span data-lang="en">Null SKUs could neither be matched nor replaced with an invented key.</span></li>
+                <li><span data-lang="fr">Les prix, stocks et ventes atypiques devaient rester visibles pour revue métier.</span><span data-lang="en">Unusual prices, inventory and sales had to remain visible for business review.</span></li>
+              </ul>
+              <div class="decision-note"><strong><span data-lang="fr">Décision structurante</span><span data-lang="en">Core decision</span></strong><p><span data-lang="fr">Retenir le filtre sémantique <code>post_type="product"</code>, auditer chaque anti-jointure et mettre les cas non fiables en quarantaine au lieu de les corriger silencieusement.</span><span data-lang="en">Use the semantic <code>post_type="product"</code> filter, audit every anti-join and quarantine unreliable cases instead of silently correcting them.</span></p></div>
+            </section>
+
+            <section class="detail-section" id="demarche">
+              <p class="eyebrow"><span data-lang="fr">03 · Démarche</span><span data-lang="en">03 · Approach</span></p>
+              <h2><span data-lang="fr">Une chaîne contrôlée, du fichier brut à la recommandation.</span><span data-lang="en">A controlled chain from raw file to recommendation.</span></h2>
+              <ol class="process-list">
+                <li><div><strong><span data-lang="fr">Auditer les contrats de données</span><span data-lang="en">Audit data contracts</span></strong><span><span data-lang="fr">Schémas, types, domaines, clés nulles, unicité et cardinalités sont contrôlés avant toute analyse.</span><span data-lang="en">Schemas, types, domains, null keys, uniqueness and cardinalities are checked before analysis.</span></span></div></li>
+                <li><div><strong><span data-lang="fr">Séparer les entités Web</span><span data-lang="en">Separate Web entities</span></strong><span><span data-lang="fr">Les produits sont distingués des pièces jointes et lignes structurelles par leur sens métier.</span><span data-lang="en">Products are separated from attachments and structural rows using business meaning.</span></span></div></li>
+                <li><div><strong><span data-lang="fr">Rapprocher avec des cardinalités déclarées</span><span data-lang="en">Reconcile with declared cardinalities</span></strong><span><span data-lang="fr">Les jointures un-à-un et plusieurs-à-un échouent explicitement si leur contrat est rompu.</span><span data-lang="en">One-to-one and many-to-one joins fail explicitly when their contract is broken.</span></span></div></li>
+                <li><div><strong><span data-lang="fr">Calculer sans effacer les anomalies</span><span data-lang="en">Calculate without erasing anomalies</span></strong><span><span data-lang="fr">CA, marge, taux de marque, rotation et couverture sont séparés des cas mis en quarantaine.</span><span data-lang="en">Revenue, margin, markup, turnover and coverage are separated from quarantined cases.</span></span></div></li>
+                <li><div><strong><span data-lang="fr">Restituer pour deux publics</span><span data-lang="en">Present for two audiences</span></strong><span><span data-lang="fr">Le notebook donne la traçabilité technique ; le support CODIR concentre les décisions, risques et limites.</span><span data-lang="en">The notebook provides technical traceability; the executive deck focuses on decisions, risks and limits.</span></span></div></li>
+              </ol>
+            </section>
+
+            <section class="detail-section" id="resultats">
+              <p class="eyebrow"><span data-lang="fr">04 · Résultats</span><span data-lang="en">04 · Outcomes</span></p>
+              <h2><span data-lang="fr">Des chiffres utilisables parce que leurs frontières sont explicites.</span><span data-lang="en">Numbers are usable because their boundaries are explicit.</span></h2>
+              <div class="metric-band" aria-label="Résultats clés" data-aria-fr="Résultats clés" data-aria-en="Key outcomes">
+                <div><strong>143,7 k€</strong><span><span data-lang="fr">CA TTC d’octobre</span><span data-lang="en">October revenue incl. tax</span></span></div>
+                <div><strong>44,7 k€</strong><span><span data-lang="fr">marge brute HT</span><span data-lang="en">gross margin excl. tax</span></span></div>
+                <div><strong>165</strong><span><span data-lang="fr">constats qualité</span><span data-lang="en">quality findings</span></span></div>
+                <div><strong>17</strong><span><span data-lang="fr">tests automatisés</span><span data-lang="en">automated tests</span></span></div>
+              </div>
+              <div class="insight-grid">
+                <article class="insight-card"><strong><span data-lang="fr">Concentration du CA</span><span data-lang="en">Revenue concentration</span></strong><p><span data-lang="fr">Le Pareto permet de concentrer la revue sur les références qui pèsent réellement dans l’activité.</span><span data-lang="en">The Pareto view focuses review on the products that materially affect the business.</span></p></article>
+                <article class="insight-card"><strong><span data-lang="fr">Qualité actionnable</span><span data-lang="en">Actionable quality</span></strong><p><span data-lang="fr">7 erreurs certaines, 125 anomalies probables et 33 valeurs inhabituelles mais plausibles sont séparées.</span><span data-lang="en">7 confirmed errors, 125 probable anomalies and 33 unusual but plausible values are kept distinct.</span></p></article>
+                <article class="insight-card"><strong><span data-lang="fr">Stock priorisé</span><span data-lang="en">Prioritized inventory</span></strong><p><span data-lang="fr">Ruptures potentielles, surstocks et stocks sans vente alimentent une file de revue, pas une action automatique.</span><span data-lang="en">Potential stockouts, overstock and no-sale inventory feed a review queue, not an automatic action.</span></p></article>
+                <article class="insight-card"><strong><span data-lang="fr">Projet transmissible</span><span data-lang="en">Transferable project</span></strong><p><span data-lang="fr">Le même pipeline alimente le notebook, les exports, 22 fichiers de figures et la synthèse de 12 slides.</span><span data-lang="en">The same pipeline feeds the notebook, exports, 22 figure files and the 12-slide summary.</span></p></article>
+              </div>
+            </section>
+
+            <section class="detail-section" id="preuves">
+              <p class="eyebrow"><span data-lang="fr">05 · Preuves</span><span data-lang="en">05 · Evidence</span></p>
+              <h2><span data-lang="fr">Deux vues pour vérifier le raisonnement.</span><span data-lang="en">Two views to verify the reasoning.</span></h2>
+              <div class="evidence-grid">
+                <figure class="evidence-card">
+                  <img src="assets/images/bottleneck-pipeline.png" width="1600" height="900" alt="" data-alt-fr="Graphique du rapprochement contrôlé entre les sources ERP, liaison et Web" data-alt-en="Chart showing the controlled reconciliation of ERP, mapping and Web sources">
+                  <figcaption><span data-lang="fr">Le rapprochement distingue les correspondances, les clés nulles et les liens absents.</span><span data-lang="en">The reconciliation separates matches, null keys and missing links.</span></figcaption>
+                </figure>
+                <figure class="evidence-card">
+                  <img src="assets/images/bottleneck-pareto.png" width="1600" height="900" alt="" data-alt-fr="Courbe de Pareto du chiffre d’affaires d’octobre par produit" data-alt-en="Pareto curve of October revenue by product">
+                  <figcaption><span data-lang="fr">La concentration du CA rend la priorisation lisible pour le décideur.</span><span data-lang="en">Revenue concentration makes prioritization clear to decision-makers.</span></figcaption>
+                </figure>
+              </div>
+            </section>
+
+            <section class="detail-section" id="limites">
+              <p class="eyebrow"><span data-lang="fr">06 · Limites</span><span data-lang="en">06 · Limitations</span></p>
+              <h2><span data-lang="fr">Ce que l’analyse ne prétend pas démontrer.</span><span data-lang="en">What the analysis does not claim to prove.</span></h2>
+              <ul>
+                <li><span data-lang="fr">Les ventes couvrent octobre et le stock est une photographie au 31 octobre ; aucune annualisation n’est défendable.</span><span data-lang="en">Sales cover October and inventory is a snapshot as of October 31; no annualization is defensible.</span></li>
+                <li><span data-lang="fr">L’année, la TVA à 20 %, le sens des retours et certains statuts doivent être confirmés par les propriétaires métier.</span><span data-lang="en">The year, 20% VAT assumption, returns meaning and some statuses require confirmation from business owners.</span></li>
+                <li><span data-lang="fr">Une valeur atypique est un signal de revue, pas la preuve d’une erreur.</span><span data-lang="en">An unusual value is a review signal, not proof of an error.</span></li>
+                <li><span data-lang="fr">Les corrélations prix, ventes et stock restent descriptives et ne démontrent aucune causalité.</span><span data-lang="en">Price, sales and inventory correlations remain descriptive and do not establish causality.</span></li>
+              </ul>
+            </section>
+
+            <section class="detail-section" id="competences">
+              <p class="eyebrow"><span data-lang="fr">07 · Compétences démontrées</span><span data-lang="en">07 · Skills demonstrated</span></p>
+              <h2><span data-lang="fr">Fiabiliser, expliquer, puis décider.</span><span data-lang="en">Make it reliable, explain it, then decide.</span></h2>
+              <div class="insight-grid">
+                <article class="insight-card"><strong>Data quality</strong><p><span data-lang="fr">Contrats, cardinalités, anti-jointures, quarantaine et traçabilité.</span><span data-lang="en">Contracts, cardinalities, anti-joins, quarantine and traceability.</span></p></article>
+                <article class="insight-card"><strong>Analytics engineering</strong><p><span data-lang="fr">Pipeline modulaire, exports reproductibles, tests et validation finale.</span><span data-lang="en">Modular pipeline, reproducible exports, tests and final validation.</span></p></article>
+                <article class="insight-card"><strong>Business analysis</strong><p><span data-lang="fr">Traduction des KPI en priorités de stock, marge et catalogue.</span><span data-lang="en">Translation of KPIs into inventory, margin and catalog priorities.</span></p></article>
+                <article class="insight-card"><strong>Data storytelling</strong><p><span data-lang="fr">Niveaux de lecture distincts pour l’équipe technique et le CODIR.</span><span data-lang="en">Distinct reading levels for technical teams and executives.</span></p></article>
+              </div>
+            </section>
+          </div>
+
+          <nav class="detail-toc" aria-label="Sommaire du projet" data-aria-fr="Sommaire du projet" data-aria-en="Project table of contents">
+            <strong><span data-lang="fr">Dans cette étude</span><span data-lang="en">In this case study</span></strong>
+            <ol>
+              <li><a href="#contexte"><span data-lang="fr">Contexte</span><span data-lang="en">Context</span></a></li>
+              <li><a href="#defi"><span data-lang="fr">Défi</span><span data-lang="en">Challenge</span></a></li>
+              <li><a href="#demarche"><span data-lang="fr">Démarche</span><span data-lang="en">Approach</span></a></li>
+              <li><a href="#resultats"><span data-lang="fr">Résultats</span><span data-lang="en">Outcomes</span></a></li>
+              <li><a href="#preuves"><span data-lang="fr">Preuves</span><span data-lang="en">Evidence</span></a></li>
+              <li><a href="#limites"><span data-lang="fr">Limites</span><span data-lang="en">Limitations</span></a></li>
+              <li><a href="#competences"><span data-lang="fr">Compétences</span><span data-lang="en">Skills</span></a></li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+
+      <nav class="container project-pagination" aria-label="Navigation entre les projets" data-aria-fr="Navigation entre les projets" data-aria-en="Project navigation">
+        <a href="projets.html"><span><span data-lang="fr">Vue d’ensemble</span><span data-lang="en">Overview</span></span><span data-lang="fr">← Tous les projets</span><span data-lang="en">← All projects</span></a>
+        <a href="projet-power-bi.html"><span><span data-lang="fr">Projet suivant</span><span data-lang="en">Next project</span></span>Power BI →</a>
+      </nav>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© <span data-current-year>2026</span> Kevin Henkes. <span data-lang="fr">Site statique, sans suivi publicitaire.</span><span data-lang="en">Static website, no advertising tracking.</span></p>
+        <ul class="footer-links"><li><a href="https://www.linkedin.com/in/kevinhenkes/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li><li><a href="cv.html"><span data-lang="fr">CV accessible</span><span data-lang="en">Accessible resume</span></a></li></ul>
+      </div>
+    </footer>
+  </body>
+</html>
